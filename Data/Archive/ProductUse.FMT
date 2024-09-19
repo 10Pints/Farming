@@ -1,0 +1,4 @@
+9.0
+2
+1       SQLCHAR       0       4000    "\t"     1     product_nm      SQL_Latin1_General_CP1_CI_AS
+2       SQLCHAR       0       4000    "\r\n"   2     type_nm         SQL_Latin1_General_CP1_CI_AS

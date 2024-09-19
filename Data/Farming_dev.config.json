@@ -1,0 +1,31 @@
+﻿{
+   "Logging": {
+      "LogLevel": {
+         "Default": "Debug",
+         "System": "Information",
+         "Microsoft": "Information"
+      }
+   },
+
+   "ThreadSettings": { "MaxThreads": 4 },
+
+   "appSettings": {
+      "AddTimestamp": "true",
+      "Config Name": "Farming_dev DbScripter config",
+      "CreateMode": "Alter",
+      "Database": "Farming_dev",
+      "DisplayLog": "true",
+      "DisplayScript": "true",
+      "Instance": "SQLExpress",
+      "IsExportingData": "false",
+      "LogFile": "D:\\Logs\\Farming.log",
+      "LogLevel": "INFO",
+      "RequiredTypes": "Schema,Tables,Procedures,Functions,Views",
+      "Schemas": "dbo",
+      "Script Dir": "E:\\Backups\\iDrive\\Dev\\repos\\Farming\\Dev",
+      "Script File": "Farming.sql",
+      "ScriptUseDb": "true",
+      "Server": "DEVI9\\SQLEXPRESS",
+      "TargetChildTypes": "Schema"
+   }
+}

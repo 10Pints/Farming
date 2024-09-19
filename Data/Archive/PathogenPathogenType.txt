@@ -1,0 +1,359 @@
+id	Pathogen	Type
+1	28 spotted beetle	Insect
+2	Adult flies	Insect
+3	Alternaria	Fungus
+4	Alternaria fruit rot	Fungus
+5	Alternaria leaf blight	Fungus
+6	Alternaria leaf spot	Fungus
+7	Annual broadleaf weeds	Broadleaf Weed
+8	Annual grasses	Grass Weed
+9	Annual sedges	Grass Weed
+10	Annual weeds	Weed
+11	Anthracnose fruit rot	Fungus
+12	Anthracnose leaf spot	Fungus
+13	Ants	Insect
+14	Aphids	Insect
+15	Armyworm	Insect
+16	Asian corn borer	Insect
+17	Asparagus worm	Insect
+18	Bacteria	Bacteria
+19	Bacterial blight	Bacteria
+20	Bacterial fruit rot	Fungus
+21	Bacterial heart rot	Bacteria
+22	Bacterial rot	Fungus
+23	Bacterial specks	Fungus
+24	Bacterial spot	Fungus
+25	Bacterial wilt	Fungus
+26	Bacterial wilt and	Fungus
+27	Banana freckle disease	Fungus
+28	Banded leaf and sheath blight	Fungus
+29	Bark borer	Insect
+30	Barnyard grass	Grass Weed
+31	Barnyard millet	Grass Weed
+32	Basal rot	Fungus
+33	Baterial cown rot	Fungus
+34	Bean fly	Insect
+35	Bean pod borer	Insect
+36	Bean rust	Fungus
+37	Beet armyworm	Insect
+38	Beetles	Insect
+39	Bermuda grass	Grass Weed
+40	Berry borer	Fungus
+41	Berry disease	Fungus
+42	Black borer	Insect
+43	Black bug	Insect
+44	Black leaf spot	Fungus
+45	Black leg	Fungus
+46	Black pod 	Fungus
+47	Black rot	Fungus
+48	Black sigatoka	Fungus
+49	Black spot	Fungus
+50	Black stripe	Fungus
+51	Blight	Fungus
+52	Blossom blight	Fungus
+53	Blosson thrips	Insect
+54	Blue mold	Fungus
+55	Boll weevil	Insect
+56	Bollworm	Insect
+57	Borer	Insect
+58	Botrytis	Fungus
+59	Botrytis leaf blight	Fungus
+60	Botrytis rot	Fungus
+61	Broadleaf weeds	Broadleaf Weed
+62	Brown bark rot	Fungus
+63	Brown eye spot	Fungus
+64	Brown leaf spot	Fungus
+65	Brown leafhopper	Insect
+66	Brown planthopper	Insect
+67	Brown spot	Fungus
+68	Budworm	Insect
+69	Bugs	Insect
+70	Bulb rot	Fungus
+71	Burrowing nematode	Nematode
+72	Bush Snail	Mollusc
+73	Butt mold	Fungus
+74	Butt rot	Fungus
+75	Buttonweed	Fungus
+76	Cabbage butterfly	Insect
+77	Cabbage looper	Insect
+78	Cabbage moth	Insect
+79	Cabbage worm	Insect
+80	Cadelle beetle	Insect
+81	Calopo	Broadleaf Weed
+82	Canker	Fungus
+83	Capsid bug	Insect
+84	Carrot blight	Fungus
+85	Caseworm	Insect
+86	Caterpillars	Insect
+87	Cecid fly	Insect
+88	Ceratocystis rot	Fungus
+89	Cercospora leaf blight	Fungus
+90	Cercospora leaf mold	Fungus
+91	Cercospora leaf spot	Fungus
+92	Cinderella weed	Fungus
+93	Citrus black spot	Fungus
+94	Citrus brown rot	Fungus
+95	Citrus scab	Fungus
+96	Clubroot	Fungus
+97	Coconut nut rot 	Fungus
+98	Coffee berry borer	Insect
+99	Coffee berry disease	Fungus
+100	Coffee rust	Fungus
+101	Cogon grass	Fungus
+102	Confused flour beetle	Insect
+103	Corm rot	Fungus
+104	Corm weevil	Insect
+105	Corn earworm	Insect
+106	Corn eyespot	Fungus
+107	Corn rot	Fungus
+108	Corn rust	Fungus
+109	Corn seedling	Fungus
+110	Corn weevil	Insect
+111	Cotton bollworm	Insect
+112	Cotton leafworm	Insect
+113	Cotton stainer bug	Insect
+114	Crabgrass	Grass Weed
+115	Crickets	Insect
+116	Crowfoot grass	Grass Weed
+117	Crown and spear rot	Fungus
+118	Crown rot	Fungus
+119	Cutworm	Insect
+120	Cyperaceous weeds	Grass Weed
+121	Cyperus	Fungus
+122	Damping off	Fungus
+123	Diamond fruit spot	Fungus
+124	Diamondback moth	Fungus
+125	Diamondback moth caterpillars	Insect
+126	Diplodia ear rot	Fungus
+127	Diplodia leaf spot	Fungus
+128	Dirty panicle	Fungus
+129	Downy mildew	Fungus
+130	Ear rot	Fungus
+131	Early blight	Fungus
+132	Earthworm	Insect
+133	Earworm	Insect
+134	Echinochloa spp.	Grass Weed
+135	Egyptian cotton leafworm	Insect
+136	Eutypa dieback	Fungus
+137	Fall armyworm	Insect
+138	Fern grass	Grass Weed
+139	Field bindweed	Broadleaf Weed
+140	Field rats	Rodent
+141	Fimbry Sedges	Grass Weed
+142	Finger rot	Fungus
+143	Flea beetle	Insect
+144	Flower weevil	Insect
+145	Frogeye leaf spot	Fungus
+146	Fruit and shoot borer	Insect
+147	Fruit borer	Insect
+148	Fruit core rot	Fungus
+149	Fruit fly	Insect
+150	Fruit rot	Fungus
+151	Fruit spot	Fungus
+152	Fruitlet core rot	Fungus
+153	Fruitworm	Insect
+154	Fungal pests	Fungus
+155	Fusarium	Fungus
+156	Fusarium fruit rot	Fungus
+157	Fusarium pallidoroseum	Fungus
+158	Fusarium solani	Fungus
+159	Fusarium spp.	Fungus
+160	Fusarium wilt	Fungus
+161	Giant african snail	Mollusc
+162	Golden apple snail	Mollusc
+163	Goosegrass	Grass Weed
+164	Gooseweed	Broadleaf Weed
+165	Grain moth	Insect
+166	Grain weevil	Insect
+167	Grasses	Fungus
+168	Grasshopper	Insect
+169	Gray leaf spot	Fungus
+170	Greasy spot	Fungus
+171	Green leafhopper	Insect
+172	Grey leaf spot	Fungus
+173	Grey mold	Fungus
+174	Grubs	Insect
+175	Gummy stem blight	Fungus
+176	Hairy beggarticks	Broadleaf Weed
+177	Headworm	Insect
+178	Heart rot	Fungus
+179	Helicotylenchus nematode	Fungus
+180	Helminthosporium leaf spot	Fungus
+181	Hoorahgrass	Fungus
+182	hoppers	Insect
+183	Hornworm	Insect
+184	House fly maggot	Insect
+185	Indian-meal moth	Insect
+186	Insect pests	Insect
+187	Itchgrass	Fungus
+188	Jungle rice	Fungus
+189	Katydid	Insect
+190	Khapra beetle	Insect
+191	Ladybird beetle	Insect
+192	Late blight	Fungus
+193	Leaf anthracose	Fungus
+194	Leaf beetle	Insect
+195	Leaf blight	Fungus
+196	Leaf folder	Fungus
+197	Leaf miner	Insect
+198	Leaf mold	Fungus
+199	Leaf roller	Insect
+200	Leaf rust	Fungus
+201	Leaf speckle	Fungus
+202	Leaf spot	Fungus
+203	Leafhopper	Insect
+204	Leafminer	Insect
+205	Leafroller	Insect
+206	Lesser grain borer	Insect
+207	Locust	Insect
+208	Loopers	Insect
+209	Maggot	Insect
+210	Major weeds	Weed
+211	Mango leafhopper	Insect
+212	Mango tip borer	Insect
+213	Mango twig borer	Insect
+214	Mealy bugs	Insect
+215	Melanose scab	Fungus
+216	Melon worm	Insect
+217	Mexican primrose-willow	Broadleaf Weed
+218	Mice	Fungus
+219	Mildew	Fungus
+220	Mites	Mite
+221	Mixed weeds	Weed
+222	Moko disease	Fungus
+223	Mole cricket	Insect
+224	Monachoria	Broadleaf Weed
+225	Mutha grass	Grass Weed
+226	Neck rot	Fungus
+227	Nematodes	Nematode
+228	Northern corn leaf blight	Fungus
+229	NutSedges	Grass Weed
+230	Oriental fruit fly	Insect
+231	Paddy rice	Grass Weed
+232	Panama disease	Fungus
+233	Panicle rice blast	Fungus
+234	Para grass	Fungus
+235	Perennial grasses	Grass Weed
+236	Perennial sedges	Grass Weed
+237	Phoma blight	Fungus
+238	Phythopthora Root rot	Fungus
+239	Phythopthora rot	Fungus
+240	Pickerel weed	Broadleaf Weed
+241	Pineaple mites	Mite
+242	Pineapple disease	Fungus
+243	Pineapple fruit rot	Fungus
+244	Pineapple mites	Mite
+245	Pineapple mold	Fungus
+246	Pineapple wilt	Fungus
+247	Pink disease	Fungus
+248	Pink rot	Fungus
+249	Pink scavenger larva	Insect
+250	Pitmark	Fungus
+251	Planthopper	Insect
+252	Pod rot	Fungus
+253	Post-emergent broadleaf weeds	Broadleaf Weed
+254	Potato cyst nematode	Nematode
+255	Potato tuber worm	Insect
+256	Powdery mildew	Fungus
+257	Purple blotch	Fungus
+258	Radopholus nematode	Nematode
+259	Rats	Rodent
+260	Red flour beetle	Insect
+261	Red rot	Fungus
+262	Red sprangletop	Fungus
+263	Rice black bug	Insect
+264	Rice blast	Fungus
+265	Rice bug	Fungus
+266	Rice flatSedge	Grass Weed
+267	Rice leaf folder	Insect
+268	Rice stem borer	Insect
+269	Rice weevil	Insect
+270	Rice whorl maggot	Insect
+271	Rind borer	Insect
+272	Rindworm	Insect
+273	Ringspot	Fungus
+274	Ripening	Fungus
+275	Rodents	Rodent
+276	Root disease	Fungus
+277	Root fly	Insect
+278	Root rot	Fungus
+279	Root-knot nematode	Nematode
+280	Rusetting	Fungus
+281	Rust	Fungus
+282	Rust-red grain beetle	Insect
+283	Saramolla grass	Grass Weed
+284	Saw toothed grain beetle	Insect
+285	Scab	Fungus
+286	Scale insect	Insect
+287	Scarring beetle	Insect
+288	Sedges	Grass Weed
+289	Seed borer	Insect
+290	Seeding blight	Fungus
+291	Seeding maggot	Insect
+292	Semilooper	Insect
+293	SemiLoopers	Insect
+294	Semi-Slugs 	Mollusc
+295	Septoria	Fungus
+296	Septoria fruit spot	Fungus
+297	Septoria leaf spot	Fungus
+298	Sheath blight	Fungus
+299	Sheath rot	Fungus
+300	Shoot borer	Insect
+301	Shot hole disease	Fungus
+302	Sigatoka	Fungus
+303	Silk beetle	Insect
+304	Silkworm	Insect
+305	Slugs	Mollusc
+306	Smoky fruit disease	Fungus
+307	Snails	Mollusc
+308	Soil insects	Insect
+309	Soil pests	Insect
+310	Sooty mold	Fungus
+311	Sour paspalum grass	Fungus
+312	Souring beetle	Insect
+313	Spear rot	Fungus
+314	Spider mite	Mite
+315	Spindletop	Fungus
+316	Squash beetle	Insect
+317	Squash bug	Insect
+318	Stem blight	Fungus
+319	Stem borer	Insect
+320	Stem end rot	Fungus
+321	Stem rot	Fungus
+322	Stink bug	Insect
+323	Stored grain pests	Insect
+324	Strawberry leaf spot	Fungus
+325	Sugarcane borer	Insect
+326	Sugarcane white grub	Insect
+327	Symphylid	Insect
+328	Talahib grass	Fungus
+329	Termite	Insect
+330	Thrips	Insect
+331	Tip hopper	Insect
+332	Tipborer	Insect
+333	Tire 	Fungus
+334	Tobacco budworm	Insect
+335	Tomato fruitworm	Insect
+336	Tool	Fungus
+337	Tropical whiteweed	Fungus
+338	Twig borer	Insect
+339	Twigcutter	Insect
+340	Twister	Insect
+341	Twister disease	Fungus
+342	Variable flatsedge	Fungus
+343	Volunteer rice	Fungus
+344	Web worm	Insect
+345	Weeds	Weed
+346	Weevil	Insect
+347	Wet bud rot	Fungus
+348	Wheat	Fungus
+349	White backed planthopper	Insect
+350	White fly	Insect
+351	White grub	Insect
+352	White leaf spot 	Fungus
+353	White rust	Fungus
+354	White spot	Fungus
+355	Whitegrub	Insect
+356	Whorl maggot	Insect
+357	Wild rice	Fungus
+358	Yellow sigatoka	Fungus

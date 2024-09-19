@@ -1,0 +1,95 @@
+SELECT * FROM temp where pathogens like '% and %' OR pathogens like '% & %'
+EXEC dbo.spReplaceAndWithComma 'temp', 'pathogens', leafminer, 0 -- 96 
+EXEC dbo.sp_update 'temp', 'pathogens', ' and leafminer', ', leafminer', 1 -- 96 / 
+
+EXEC dbo.spReplaceAndWithComma 'temp', 'pathogens', leafminer, 1 -- 96 -
+-- Sedges and broadleaf weeds
+EXEC dbo.spReplaceAndWithComma 'temp', 'pathogens', 'broadleaf weeds', 0
+
+SELECT * FROM temp where pathogens like '%aphids, leafminer%' 
+UPDATE temp SET pathogens = 'Thrips, cutworm, leafhopper, tuber moth, aphids, leafminer' WHERE pathogens = 'Thrips, cutworm, leafhopper, tuber moth, aphidsleafminer'
+-- , maggots,mealybug, podborer, thrips
+EXEC dbo.sp_update 'temp', 'pathogens', 'maggots,mealybug', 'maggots, mealybug', 1 -- 53 / 58
+-- Thrips, mealybug, leaffolder (STEM and MAT spray application ofmealy bugs)
+UPDATE temp SET Notes = 'Potted and driftwood-attached plants such as',
+pathogens='slugs, snails' WHERE id in (156)
+EXEC dbo.sp_update 'temp', 'pathogens', '(STEM and MAT spray application ofmealy bugs)', '', 1 --    Notes: id: 123  (STEM and MAT spray application ofmealy bugs)
+EXEC dbo.spReplaceAndWithComma 'temp', 'pathogens', '28 spotted beetle', 1 -- 96  -- Leafworm, squash bug and 28 spotted beetle - 94 rows
+EXEC dbo.spReplaceAndWithComma 'temp', 'pathogens', 'leaffolder', 1 -- 71  -- Leafworm, squash bug and 28 spotted beetle - 94 rows
+EXEC dbo.sp_update 'temp', 'pathogens', 'Grasses (E. colona, crusgalli) Broadleaves (L. octavalvis & S.zeylanica) Sedges (C. Difformis & C. Iria)', 'Grasses (E. colona, E.crusgalli) Broadleaves (L. octavalvis, S.zeylanica) Sedges (C. Difformis, C. Iria)', 1 -- Grasses (E. colona & E. crusgalli) Broadleaves (L. octavalvis & S.zeylanica) Sedges (C. Difformis & C. Iria)
+EXEC dbo.sp_update 'temp', 'pathogens', 'Sedges and broadleaf weeds', 'Sedges, broadleaf weeds', 1-- Sedges and broadleaf weeds
+EXEC dbo.sp_update 'temp', 'pathogens', 'Annual and perennial grasses', 'Annual grasses, perennial grasses', 1-- Annual and perennial grasses, Sedges, broadleaf weeds
+EXEC dbo.sp_update 'temp', 'pathogens', 'sedges &', 'sedges,', 1-- Broadleaves, sedges & grasses
+EXEC dbo.sp_update 'temp', 'pathogens', 'Annual & Perennial weeds', 'Annual weeds, Perennial weeds', 1-- Annual & Perennial weeds
+EXEC dbo.sp_update 'temp', 'pathogens', 'Late blight and Early blight', 'Late blight, Early blight', 1 -- Late blight and Early blight
+EXEC dbo.sp_update 'temp', 'pathogens', 'Annual broadleaves and sedges', 'Annual broadleaved weeds, sedgest', 1 -- Annual broadleaves and sedges
+EXEC dbo.sp_update 'temp', 'pathogens', ' and shoot borer', ', shootborer' , 1-- Thrips, Leafhopper, fruit and shoot borer
+EXEC dbo.sp_update 'temp', 'pathogens', ' fruit, shootborer', 'fruitborer, shootborer' , 1-- Thrips, Leafhopper, fruit and shoot borer
+
+
+SELECT * FROM temp where pathogens like '% and %' 
+-- Annual broad leaved weeds,  Perennial broad leaved weeds and grasses
+EXEC sp_update 'temp', 'pathogens', @search_clause=' and grasses', @replace_clause=', grasses', @doit=1 -- 541 - 545
+-- Field rats,mice and other harmful rodents
+EXEC sp_update 'temp', 'pathogens', @search_clause=' and other', @replace_clause=', other', @doit=1 -- 74 -
+EXEC sp_update 'temp', 'pathogens', @search_clause='and insects', @replace_clause=', insects', @doit=1
+EXEC sp_update 'temp', 'pathogens', @search_clause='and Scab', @replace_clause=', Scab', @doit=1
+ --Anthracnose and Scab
+SELECT * FROM temp where pathogens like '%Stem and leaf blight%' -- 110
+SELECT * FROM temp where pathogens like '%blight%' -- 110
+-- Powdery mildew, cercospora, septoria, fruit rot, anthracnose, earlyand late blight
+SELECT pathogens from temp where pathogens like '%earlyand late blight%'
+EXEC sp_update 'temp', 'pathogens', @search_clause='earlyand late blight', @replace_clause='early blight, late blight', @doit=1
+EXEC sp_update 'temp', 'pathogens', @search_clause='early and late blight', @replace_clause='early blight, late blight', @doit=1
+EXEC sp_update 'temp', 'pathogens', @search_clause='Stem and leaf blight', @replace_clause='blight', 0
+SELECT * FROM temp WHERE pathogens LIKE '%Stem and leaf blight%'
+UPDATE temp SET [pathogens] = REPLACE(pathogens, 'earlyand late blight', 'early blight, late blight') WHERE [pathogens] LIKE '%earlyand late blight%'
+   SELECT * from Agrichemicals ORDER BY COMPANY, ingredient, product
+
+   UPDATE dbo.AgriChemicals SET company  = REPLACE(company  , '"', '') WHERE company like '%"%';
+   UPDATE dbo.AgriChemicals SET product  = REPLACE(product  , '"', '') WHERE product like '%"%';
+   UPDATE dbo.AgriChemicals SET pathogens= REPLACE(pathogens, '"', '') WHERE pathogens like '%"%'; 
+   UPDATE dbo.AgriChemicals SET crops= REPLACE(crops, '"', ''    ) WHERE crops like '%"'; 
+
+   UPDATE dbo.AgriChemicals SET pathogens= REPLACE(pathogens, 'á', ' ') WHERE pathogens like '%á%'; 
+   UPDATE dbo.AgriChemicals SET crops = 'Glyphosate tolerant corn' WHERE crops = 'Glyphosate tolerantcorn'; 
+   UPDATE dbo.AgriChemicals SET crops = 'Corn', notes = '(Sweet andPopcorn)'  WHERE crops = 'Corn (Sweet andPopcorn)'
+   -- pathogens: Annual & perrenial grasses, Broadleaf weeds & sedges
+    UPDATE dbo.AgriChemicals SET pathogens= REPLACE(pathogens, 'Annual & perennial grasses', 'Annual grasses, perrenial grasses') WHERE pathogens like '%Annual & perennial grasses%'; 
+    UPDATE dbo.AgriChemicals SET pathogens= REPLACE(pathogens, ' & sedges', ', sedges') WHERE pathogens like '%& sedges%'; 
+    UPDATE dbo.AgriChemicals SET pathogens= REPLACE(pathogens, ' & annual grasses', ', annual grasses') WHERE pathogens like '%& annual grasses%'; 
+    UPDATE dbo.AgriChemicals SET pathogens= REPLACE(pathogens, ' & rust', ', rust') WHERE pathogens like '% & rust%'; 
+    UPDATE dbo.AgriChemicals SET entry_mode = 'SYSTEMIC, CONTACT' WHERE entry_mode='SYSTEMIC/CONTACT';
+    UPDATE dbo.AgriChemicals SET notes = crops, crops='??' WHERE crops='Banana oil (asemulsifier)';
+    UPDATE dbo.Agrichemicals SET pathogens= REPLACE(pathogens, ' & freckle', ', freckle') WHERE pathogens like '%& freckle%'
+
+
+
+EXEC sp_update 'temp', 'pathogens', @search_clause='and D. ciliaris', @replace_clause=', D. ciliaris', @doit=1
+-- Stemborer, armyworm, leafhopper, caseworm and planthopper
+EXEC sp_update 'temp', 'pathogens', @search_clause=' and planthopper', @replace_clause=', planthopper', @doit=1
+-- Seedling maggot, corn earworm, cornborer and armyworm
+EXEC sp_update 'temp', 'pathogens', @search_clause=' and armyworm', @replace_clause=', armyworm', @doit=1
+
+SELECT * FROM temp where pathogens like '% and %' OR pathogens like '% & %'
+EXEC dbo.sp_update 'temp', 'pathogens', 'Stemborer and leaf folder', 'Stemborer, leaf folder', 1
+EXEC dbo.sp_update 'temp', 'pathogens', ', and broadleaves weeds', ', broadleaved weeds', 1-- Grasses, sedges, and broadleaves weeds
+EXEC dbo.sp_update 'temp', 'pathogens', ', & thrips', ', thrips', 1 -- , & thrips
+EXEC dbo.sp_update 'temp', 'pathogens', ' & aphids', ', aphids', 1-- Diamond back moth, cabbage worm & aphids, thrips
+EXEC dbo.sp_update 'temp', 'pathogens', ' & budworm', ', budworm', 1 -- Thrips, bollworm & budworm
+UPDATE temp SET Notes = 'As plant growth regulation for the flower induction and ripening' WHERE pathogens = 'As plant growth regulation for the flower induction and ripening'-- As plant growth regulation for the flower induction and ripening
+UPDATE temp SET USES = 'Growth Regulator', pathogens=''  WHERE pathogens = 'As plant growth regulation for the flower induction and ripening'
+EXEC dbo.sp_update 'temp', 'pathogens', ' & budworm', ', budworm', 1 -- Thrips, bollworm & budworm
+EXEC dbo.sp_update 'temp', 'pathogens', 'Black Sigatoka and freckle', 'Black Sigatoka, Freckle Disease', 1 -- Black Sigatoka and freckle
+EXEC dbo.sp_update 'temp', 'pathogens', ' and leafroller', ', leafroller', 1-- Thrips, aphids, scarring beetle and leafroller
+EXEC dbo.sp_update 'temp', 'pathogens', ' & ', ', ', 1 -- Ants & Mealybugs -- 684 rows
+EXEC dbo.sp_update 'temp', 'pathogens', ' and ', ', ', 1 -- Grasses and sedges -- 1080 rows
+EXEC dbo.sp_update 'temp', 'pathogens', 'broadleaved weeds', 'broadleaf weeds', 1 -- 223 rows
+
+SELECT * FROM temp
+EXEC dbo.sp_update 'temp', 'pathogens', 'broad leaved weeds', 'broadleaf weeds', 1 -- Annual broad leaved weeds,  Perennial broad leaved weeds, grasses -- 444 rows
+
+SELECT id, pathogens, REPLACE(pathogens, ', ', ',')  FROM temp WHERE pathogens LIKE '%[^ ],[^ ]%'
+SELECT id, pathogens, REPLACE(pathogens, ', ', ',')  FROM temp
+
+EXEC dbo.sp_update 'temp', 'pathogens', 'Broadleaves', '

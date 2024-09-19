@@ -1,0 +1,12 @@
+product_nm	use_nm
+Speramet 240 Sc	Insecticide
+Grande Carbofuran 10g	Insecticide
+Lauryl E08	Emulsifier
+Biophero	Biological Insecticide
+Sporekill	Disinfectant
+Xtragro 480 PGR	Growth Regulator
+Lutensol A8	Wetting Agent
+Silwet 408	Adjuvant
+Purespray Green	Insecticide
+Gentrol 400	Insecticide
+Spawn 480 Sl	Growth Regulator

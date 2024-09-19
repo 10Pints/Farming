@@ -1,0 +1,128 @@
+id	command	search_clause	 not_clause	replace_clause	case sensitive	Latin_name	common_name	local_name	alt_names	note_clause	crops	doit	must_update	comments	exp_cnt	chk	dummy
+583		row cnt		478	1						2	581	581	Version: 27/07/2023 16:43:41		Version: 28/07/2023 08:08:40	Version: 01/08/2023 14:43:05
+0		blank id cnt			579							577	581				
+1	sp_update	Perrenial		Perennial													
+2	sp_update	  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum )		moko disease	0							1					
+3	sp_update	 application of Mealy bugs)		Mealy bugs	1							1					
+4	sp_update	 for flowering								 for flowering		1					
+5	sp_update	)										1					
+6	sp_update	: cogon ; mixed weeds: Para grass		Para grass								1					
+7	sp_update	: cogon; mixed weeds: Para grass		Para grass								1					
+8	sp_update	"Grasses (e. indica,D. setigera,P. conjugatum),Broadleaves (c. rutidosperma,A,Gangetica,E. sonchifolia,H. corymbosa,C."		"Grasses,Broadleaved weeds"								1		A'			
+9	sp_update	Abbaitors		Abbaitoirs													
+10	sp_update	Adult files		Adult flies													
+11	sp_update	Alternari a leaf spot		Alternaria leaf spot													
+12	sp_update	Anatrachyntis larvae (valid only for use by del monte fresh produce (phils)		Anatrachyntis larvae 						(valid only for use by del monte fresh produce (phils)							
+13	sp_update	Animal transport															
+14	sp_update	"Annual,Perennial broadleaf of weeds"		Broadleaved weeds													
+15	sp_update	"Annual,Perennial broadleaf weeds"		Broadleaved weeds													
+16	sp_update	"Annual,Perennial broadleaves,Grasses"		"Broadleaved weeds,Grasses"													
+17	sp_update	"Annual,Perennial grass weeds"		Grasses													
+18	sp_update	"Annual,Perennial grasses"		Grasses													
+19	sp_update	"Annual,Perennial grasses weeds"		Grasses													
+20	sp_update	"Annual,Perennial grasses,Broadleaf weeds sedges"		"Grasses,Broadleaved weeds,Sedges"													
+21	sp_update	"Annual,Perennial grasses,Broadleaf weeds,Sedges"		"Grasses,Broadleaved weeds,Sedges"													
+22	sp_update	"Annual,Perennial grasses,Broadleaves,Sedges"		"Grasses,Broadleaved weeds,Sedges"													
+23	sp_update	"Annual,Perennial grasses,Sedges,And broadleaf weeds"		"Grasses,Broadleaved weeds,Sedges"													
+24	sp_update	"Annual,Perennial grasses,Sedges,Broadleaf weeds"		"Grasses,Broadleaved weeds,Sedges"													
+25	sp_update	"Annual,Perennial grasses,Sedges,Broadleaves"		"Grasses,Broadleaved weeds,Sedges"													
+26	sp_update	"Annual,Perennial weeds"		Weeds													
+27	sp_update	"Annual,Perennial,Grass,Broad-leaved weeds"		"Grasses,Broadleaved weeds"													
+28	sp_update	"Grasses,Annual,Perennial broadleaves"		"Grasses,Broadleaved weeds"													
+29	sp_update	Anthracnose fruit rot(colletotrichum musae )		Anthracnose fruit rot		Colletotrichum musae											
+30	sp_update	Antss		Ants													
+31	sp_update	As a single adjuvant or in combination with the diazinon 60 ec for the control of scale insect		Scale insect						As a single adjuvant or in combination with the diazinon 60 ec for the control of scale insect							
+32	sp_update	As a surfactant on vagary 100 sc															
+33	sp_update	As adjuvant in tank combination with mancozeb 448 f for the control of sigato															
+34	sp_update	As disinfectaant for dairy															
+35	sp_update	As disinfectant for the control of crown rot															
+36	sp_update	As surfactant for bisig 100 sc															
+37	sp_update	As surfactant in dominate 100 sc															
+38	sp_update	As surfactant on demolish 100 sc															
+39	sp_update	As toll disinfectant for the control ofmoko disease caused by ralstonia solanacearum															
+40	sp_update	As tool disinfectant															
+41	sp_update	As tool disinfectant for the control of (fusarium oxysporum f. spp. cubense)															
+42	sp_update	As tool disinfectant for the control ofmoko disease (ralstonia solanacearum )															
+43	sp_update	Banana freckle disease as spray oil adjuvant															
+44	sp_update	Banana freckle disease; scale insect															
+45	sp_update	Banded leaf and sheath blight															
+46	sp_update	Bean fly armyworm		"Bean fly,Armyworm"													
+47	sp_update	Bean fly nematodes		"Bean fly,Nematodes"													
+48	sp_update	Beanleaf beetles		Beanleaf beetle													
+49	sp_update	Black sigatoka (as adjuvant)		Black sigatoka						adjuvant							
+50	sp_update	Black sigatoka as spray advujant in combination with the standard fungicide		Black sigatoka						adjuvant							
+51	sp_update	Black sigatoka in combination with the standard fungicides used for sigatoka control		Black sigatoka													
+52	sp_update	Black sigoka banana freckle diseases		"Black sigoka,Banana freckle disease"													
+55	sp_update	Black stripe (panel disease)		Black stripe						a panel disease	Rubber						
+56	sp_update	Boil weevil		Boll weevil													
+57	sp_update	Broadleaf weeds (c. rutidosperma		Broadleaf weeds						 c.rutidosperma							
+58	sp_update	Broadleaf weeds (Gooseweed		Broadleaf weeds						Gooseweed							
+59	sp_update	Broadleaf weeds (sphenoclea		Broadleaf weeds						sphenoclea							
+60	sp_update	Broadleaf weeds fimbristylis milliacea(gumi)		Broadleaf weeds						fimbristylis milliacea(gumi)							
+61	sp_update	Broadleaf weeds sedges		Broadleaf weeds						sedges							
+62	sp_update	Broadleaf weeds)		Broadleaf weeds													
+63	sp_update	Broadleaf weeds) ; immature		Broadleaf weeds						immature							
+64	sp_update	Broadleaf weeds) immature		Broadleaf weeds						immature							
+65	sp_update	Broadleaf weeds):		Broadleaf weeds													
+66	sp_update	Broadleaf weeds); imature		Broadleaf weeds						imature							
+67	sp_update	Broadleaf weeds); immature		Broadleaf weeds						immature							
+68	sp_update	Brown leaf spt		Brown leaf spot													
+69	sp_update	Brown planthopper (brown planthopper) leaf folder		"Brown planthopper,Leaf folder"													
+70	sp_update	Brown/white backed planthopper		"Brown planthopper,White backed planthopper"													
+71	sp_update	Brush Snails		Brush snail													
+72	sp_update	Bush Snails		Brush snail													
+73	sp_update	Butt	Butt mold	Butt mold													
+74	sp_update	Butt rot or base rot		"Butt rot,Base rot"													
+75	sp_update	Button weed		Buttonweed													
+76	sp_update	Capcid bug		Capsid bug													
+77	sp_update	Case worm	Rice caseworm	Rice caseworm													
+78	sp_update	Caseworm	Rice caseworm	Rice caseworm													
+79	sp_update	Cercospora leaf spot) drench (damping off fusarium wilt)		"Cercospora leaf spot,Damping off,Fusarium wilt"													
+80	sp_update	Chocolate spots		Chocolate spot													
+81	sp_update	Cogon (open condition)		Cogon grass													
+82	sp_update	Cogon (shade condition)		Cogon grass													
+83	sp_update	Common cutworm (spodoptera litura )		Cutworm		spodoptera litura 											
+84	sp_update	Confused flour beetle flourbeetles		Confused flour beetle													
+85	sp_update	Confused flour beetle flour		Confused flour beetle													
+86	sp_update	Control of erwinia carotovora		Bacteria: erwinia carotovora													
+87	sp_update	"Corn,Rice weevil"		"Corn weevil,Rice weevil"										Corn'			
+88	sp_update	"Corn seedling,Maggot"		Corn seedling maggot										Corn seedling			
+89	sp_update	Cornweevil		Corn weevil													
+90	sp_update	Cotton leafworms		Cotton leafworm													
+91	sp_update	Crcospora		Cercospora													
+92	sp_update	Crikets	Crickets	Crickets													
+93	sp_update	Crow grass.		Crowfoot grass													
+94	sp_update	Crow grass		Crowfoot grass													
+95	sp_update	"Crown,Butt molds"		"Crown mold,Butt mold"										Crown			
+96	sp_update	Crown rot/ butt rot		"Crown rot,Butt rot"													
+97	sp_update	Cucurbit beetles		Cucurbit beetle													
+98	sp_update	Cutworm. aphids		"Cutworm,aphids"													
+99	sp_update	"Grasses controlled: echinochloa glabrescens,Ischaemun rugosum,Leptochloa chinensis,Sedges controlled: cyperus iria,Cyperus"		Grasses						"Grasses controlled: echinochloa glabrescens,Ischaemun rugosum,Leptochloa chinensis,Sedges controlled: cyperus iria"				Cyperus			
+100	sp_update	"Grasses (e.colona,Eleusine indica,D.aegyptium,D.ciliaris)"		Grasses						"Grasses (e.colona,Eleusine indica,D.aegyptium,D.ciliaris)"				D.ciliaris)			
+101	sp_update	Damping off-		Damping off 													
+102	sp_update	Damping off (drench application.		Damping off 													
+103	sp_update	Day flower		Asiatic Dayflower													
+104	sp_update	Dayflower		Asiatic Dayflower													
+105	sp_update	"Anatrachyntis larvae (VALID ONLY FOR USE BY Del Monte fresh produce (Phils),Inc. and Delmonte philippines,Inc.)"		Anatrachyntis larvae						"VALID ONLY FOR USE BY Del Monte fresh produce (Phils),Inc. and Delmonte philippines,Inc."				Delmonte philippines			
+106	sp_update	Diamond fruit spot caused by cercospora hayi		Diamond fruit spot													
+107	sp_update	Diamondback moth (diamondback moth)		Diamondback moth													
+108	sp_update	"Anthracnose,Diplodia"		"Anthracnose,Diplodia stem end rot"							Mango						
+109	sp_update	Dirty panicle disease complex		Dirty panicle													
+110	sp_update	Disinfection of surfaces								Disinfection of surfaces							
+111	sp_update	Downy mildew as 		Downy mildew													
+112	sp_update	Dowy mildew		Downy mildew													
+113	sp_update	Echinochloa barnyard grass		Barnyard grass													
+114	sp_update	Equine; for terminal blosecurity and								Equine; for terminal blosecurity and							
+115	sp_update	Equipment in farm animal housing								Equipment in farm animal housing							
+116	sp_update	"Surface disinfection in animal facilities (livestock housing,Abbaitors,Animal transport,Equipment,And warehouse for"												Equipment			
+117	sp_update	F		"Grasses,Broadleaf weeds"						Glyphosate Ipa				[F]:Glyphosate Ipa			
+118	sp_update	Fall armyworm(knapsack spraying)		Fall armyworm						knapsack spraying							
+119	sp_update	Fern (shade condition)		"Ferns,Fern Grass"													
+120	sp_update	Fileds crickets		Field crickets													
+121	sp_update	Fimbristylis		Fimbry Sedges													
+122	sp_update	"Foliar (damping-off,Cercospora leaf spot) drench (damping-off fusarium wilt)"		"Damping off,Fusarium wilt"										Foliar (damping off			
+123	sp_update	"Foliar (Damping-off,cercospora leaf spot) Drench (Damping-off fusarium wilt)"		"Damping off,Fusarium wilt"										Foliar (damping off			
+124	sp_update	For the control of scale insect		Scale insect													
+125	sp_update	Frekles		Banana freckle disease													
+126	sp_update	Fruit/ shoot borer		Fruit and shoot borer													
+127	sp_update	Fungal diseases caused by fusarium spp.		Fusarium spp.													

@@ -1,0 +1,26 @@
+use_id	use_nm
+1	Acaricide
+2	Adjuvant
+3	Antibiotic
+4	Bactericide
+5	Biological Fungicide
+6	Biological Herbicide
+7	Biological Insecticide
+8	Bleaching Agent
+9	Disinfectant
+10	Emulsifier
+11	foliar antitranspirant
+12	Fumigant
+13	Fungicide
+14	Growth Regulator
+15	Herbicide
+16	Insecticide
+17	Miticide
+18	Molluscicide
+19	Nematicide
+20	Others
+21	Ripener
+22	Rodenticide
+23	Soil Sterilant
+24	Sticker
+25	Wetting Agent

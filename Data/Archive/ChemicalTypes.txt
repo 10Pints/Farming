@@ -1,0 +1,21 @@
+id	name
+1	Adjuvant
+2	Antibiotic
+3	Biological Fungicide
+4	Biological Herbicide
+5	Biological Insecticide
+6	Disinfectant
+7	Emulsifier
+8	Fumigant
+9	Fungicide
+10	Growth Regulator
+11	Herbicide
+12	Insecticide
+13	Miticide
+14	Molluscicide
+15	Nematicide
+16	Others
+17	Rodenticide
+18	Soil Sterilant
+19	Sticker
+20	Wetting Agent

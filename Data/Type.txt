@@ -1,0 +1,6 @@
+type_id	type_nm
+1	Chemical
+2	Company
+3	Crop
+4	Pathogen
+5	Product

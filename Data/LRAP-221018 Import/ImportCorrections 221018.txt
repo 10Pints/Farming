@@ -1,0 +1,949 @@
+id	command	search_clause	 not_clause	replace_clause	case sensitive	Latin_name	common_name	local_name	alt_names	note_clause	crops	doit	must_update	comments	exp_cnt	chk	dummy							
+946		row cnt		69	5						25	942	0	Version: 27/07/2023 16:43:41		Version: 28/07/2023 08:08:40	Version: 01/08/2023 14:43:05							
+0		blank id cnt			0							3	0											
+1	SKIP	1: do these first			0							0	0											
+2	SKIP	1.1: expand latin names			0							0	0											
+3	sp_update	"Grasses (echinochloa spp.,Leptochloa chinensis,Ischaemum rogusum sedges (c. iria,C. difformis ); broadleaves (l. octavalvis,S."		"Grasses,Barnyard grass,Red sprangletop,Saramolla grass,Sedges,Rice flatsedge,Variable flatsedge,Broadleaf weeds,Primrose willow"	0							1	0											
+4	sp_update	C.iria		Rice flatsedge	0	Cyperus iria	Rice flatsedge	"Sud-sud,Alinang"				1	0											
+5	sp_update	C. iria)		Rice flatsedge	0							1	0											
+6	sp_update	C. iria		Rice flatsedge	0							1	0											
+7	sp_update	C. difformis		Variable flatsedge	0	Cyperus difformis	Rice sedge		"Variable flatsedge,Smallflower umbrella-sedge"			1	0											
+8	sp_update	C.difformis		Variable flatsedge	0							1	0											
+9	SKIP	C. rotondus		Purple Nutsedge	0	Cyperus rotondus	Purple Nutsedge		"Coco Grass,Java Grass,Nut Grass,Red nut sedge"			1	0											
+10	sp_update	D. aegyptium		Crowfoot grass	0	Dactyloctenium aegyptium	Egyptian crowfoot grass					1	0											
+11	sp_update	D. ciliaris		Crabgrass	0	Digitaria ciliaris	Southern crabgrass		"Tropical finger-grass,Tropical crabgrass,Summer gras"			1	0											
+12	sp_update	e. colona		Wild rice	0	Echinochloa colona			"Jungli rice,Wild rice,Deccan grass,Jharua,Awnless barnyard grass"			1	0											
+13	sp_update	e.colona		Wild rice	0	Echinochloa colona						1	0											
+14	sp_update	E. crus-galli		Barnyard grass	0	Echinochloa crus-galli			Echinochloa glabrescens			1	0											
+15	sp_update	E. crusgalli		Barnyard grass	0	Echinochloa crus-galli			Echinochloa glabrescens			1	0											
+16	sp_update	E.globrescens		Barnyard grass	0	Echinochloa glabrescens			E. crus-galli			1	0											
+17	sp_update	F. miliacea		{Hoorahgrass}	0	{Fimbristylis miliacea}						1	0											
+18	sp_update	F.miliacea		{Hoorahgrass}	0	{Fimbristylis miliacea}						1	0											
+19	sp_update	F.mliacea		{Hoorahgrass}	0	{Fimbristylis miliacea}						1	0											
+20	sp_update	Ischaemum rugosum		Saramolla grass	0	Ischaemum rugosum	Saramolla grass					1	0											
+21	sp_update	L. chinensis		Red sprangletop	0	Leptochola chinensis						1	0											
+22	sp_update	L.chinesis		Red sprangletop	0	Leptochola chinensis						1	0											
+23	sp_update	L. octavalvis		Primrose willow	0	Ludwigia octovalvis 						1	0											
+24	sp_update	Tropic ageratum		Tropical whiteweed	0	Ageratum conyzoides	Tropical whiteweed		"Billygoat weed,Bluebonnet,Bluetop"			1	0											
+25	sp_update	S. zeylanica		Gooseweed	0	Sphenoclea zeylanica	Gooseweed		"Chickenspike,Wedgewort,Tropic ageratum"			1	0											
+26	SKIP	1.2: Standardise Broadleaf Weeds varients			0							1	0											
+27	SKIP	Other preprociessing fixups			0							1	0											
+28	SKIP	"Grasses (barnyard grass,Leptochloa chinensis,Ischaemum rugosum sedges (c. iria,Cyperus difformis );broadleaf weeds(primrose willow,S."		"Barnyard grass,Red sprangletop,Saramolla grass,Rice flatsedge,Rice sedge,Primrose willow"	0							1	0											
+29	SKIP	2: main correction sequence			0							1	0											
+30	sp_update	(common grassy fields) for the control of weeds		Weeds	0							1	0											
+31	sp_update	(Palay-maya)		{}	0							1	0											
+32	sp_update	*corn weevils		Corn weevil	0							1	0		1									
+33	sp_update	{perrenial}		{Perennial}	0							1	0											
+34	sp_update	",and "		"{,}"	0							1	0	Check it out in sql										
+35	sp_update	" (stem,Mat spray application of mealy bugs)"		Mealy bugs	0							1	0											
+36	sp_update	"{,Aphids through stem,Mat spray}"		",Aphids"	0							1	0											
+37	sp_update	"{,Aphids through stem}"		",Aphids"	0							1	0											
+38	sp_update	",Beetle"	",Beetles"	",Beetles"	0							1	0											
+39	sp_update	",Cescospora,"		",Cercospora leaf spot,"	0							1	0											
+40	sp_update	",freckles"		"{,Banana freckle disease}"	0							1	0			{banana freckle disease								
+41	sp_update	",Fruit,Borer"		",Fruit borer"	0							1	0											
+42	sp_update	",Paddy,"		",Paddy rice,"	0							1	0											
+43	sp_update	",rust"		",Rust"	0							1	0											
+44	sp_update	",worm"		",Worm"	0							1	0											
+45	sp_update	. Cutworm		",Cutworm"	0							1	0											
+46	sp_update	28 spotted beetle		28 Spotted beetle	0							1	0											
+47	sp_update	28 spotted beetles		28 Spotted beetle	0							1	0											
+48	sp_update	28- spotted bettles		28 Spotted beetle	0							1	0											
+49	sp_update	28-spotted Beetle		28 Spotted beetle	0							1	0											
+50	sp_update	aanual grasses		Annual grasses	0							1	0											
+51	sp_update	Adult flies		Fly	0							1	0											
+52	sp_update	alternaria	alternaria l	Alternaria	0							1	0											
+53	sp_update	Alternaria Leaf blight		Alternaria leaf blight	0							1	0											
+54	sp_update	Alternaria Leafspot		Alternaria leaf spot	0							1	0											
+55	sp_update	"Alternaria,Cercospora leaf spot"		"Alternaria leaf spot,Cercospora leaf spot"	0							1	0											
+56	sp_update	Alternaria cercospora	cercospora leaf	"Alternaria leaf spot,Cercospora leaf spot"	0							1	0											
+57	sp_update	"Alternaria,"		"Alternaria leaf spot,"	0							1	0											
+58	sp_update	"Alternative,"		{}	0							1	0											
+59	sp_update	alternia		Alternaria	0							1	0											
+60	sp_update	"Annual,Perennial broadleaf of weeds"		Broadleaf weeds	0							1	0											
+61	sp_update	"Annual grasses,Perennial grasses"		Grasses	0							1	0											
+62	sp_update	"{Annual,Perennial,Grass}"	grasses	{Grasses}	0							1	0											
+63	sp_update	"Annual,Perennial broadleaves"		Broadleaf weeds	0							1	0											
+64	sp_update	"Annual,Perennial grasses"		{Grasses}	0							1	0											
+65	sp_update	"{Annual grasses,Broadleaf weeds,Sedges}"		"Annual grasses,Annual broadleaf weeds,Annual sedges"	0							1	0											
+66	sp_update	"Annual,Perennial weeds"		Weeds	0							1	0											
+67	sp_update	{Annual grasses sedges broad-leaf weeds}		{Annual grasses sedges broad-leaf weeds}	0							1	0											
+68	sp_update	{Annual broadleaves}		{Annual broadleaf weeds}	0							1	0											
+69	sp_update	{Annual brodleaves}		{Annual broadleaf weeds}	0							1	0											
+70	sp_update	{Annual grasses sedges broad-leaf weeds}		"{Annual grasses,Annual sedges,Annual broadleaf weeds}"	0							1	0											
+71	sp_update	{Annual Perennial grasses}		Grasses	0							1	0											
+72	sp_update	anthracnose		Anthracnose	1							1	0											
+73	sp_update	Anthracnose (Colletotrichum gloeosporioides		Anthracnose	0	Colletotrichum gloeosporioides						1	0											
+74	sp_update	Anthracnose (foliar application)		Anthracnose	0							1	0											
+75	sp_update	Anthracnose Scab		"Anthracnose,Scab"	0							1	0											
+76	sp_update	Anthracnose/twister Bulb rot		Anthracnose	0							1	0											
+77	sp_update	Antracnose		Anthracnose	0							1	0											
+78	sp_update	aphipds		Aphids	0							1	0											
+79	sp_update	Apple Snail		Golden apple snail	0							1	0											
+80	sp_update	Army worm		Armyworm	0							1	0											
+81	sp_update	armywor	armyworm	Armyworm	0							1	0			Army worm								
+82	sp_update	armyworm		Armyworm	0							1	0			Army worm								
+83	sp_update	Armyworm ( as pheromone lure)		Armyworm	0							1	0			Army worm								
+84	sp_update	Armyworm (pheromone lure)		Armyworm	0							1	0			Army worm								
+85	sp_update	armyworm rice bug		"Armyworm,Rice bug"	0							1	0			Army worm								
+86	sp_update	"Armyworm,Armyworm"		Armyworm	0							1	0			Army worm								
+87	sp_update	Armyworms		Armyworm	0							1	0			Army worm								
+88	sp_update	As a surfactant on lampas		{}	0							1	0			Lampas								
+89	sp_update	"As tool disinfectant,Foot bath or wheel bath for the control of moko disease/bacterial wilt (ralstonia solanacearum ),Fusarium wilt (fusarium oxysporum f. sp cubense)"		"{Moko disease,Fusarium wilt }"	0							1	0		2									
+90	sp_update	"As foot bath,tire dip,tool and machinery disinfectant for the control of Moko disease and Fusarium wilt"		"Moko disease,Fusarium wilt"	0							1	0											
+91	sp_update	"As tool desinfectant for the control of fusarium wilt,Bacterial wilt"		"{Moko disease,Fusarium wilt }"	0							1	0		1									
+92	sp_update	"As plant growth regulation for the flower induction,Ripening"			0							1	0		1									
+93	sp_update	As surfactant on guarantee 10% sc (ai: bispyribac sodium)			0							1	0		1									
+94	sp_update	As surfactant on oryza 10 sc (ai: bispyribac sodium)		Stored product pests	0							1	0		1									
+95	sp_update	As fumigant for the control of stored product pest			0							1	0		1									
+96	sp_update	As surfactant on vero 10 sc(ai: bispyribac sodium)			0							1	0		1									
+97	sp_update	As adjuvant for the control of black sigatoka		{Sigatoka}	0							1	0		0									
+98	sp_update	As a surface active agent (emulsifier)			0							1	0											
+99	sp_update	As a surfactant for vigilante 100 sc			0							1	0											
+100	sp_update	As surface active agent (emulsifier)			0							1	0											
+101	sp_update	As surfactant for rice max 100 sc			0							1	0	import to here then chk it out in sql										
+102	sp_update	As surfactant for aspire sc twin			0							1	0											
+103	sp_update	As surfactant on priority 100 sc			0							1	0											
+104	sp_update	As surfactant on priority sc 100			0							1	0											
+105	sp_update	As surfactant for combee 100 sc			0							1	0											
+106	sp_update	As surfactant of drumlin 100 sc			0							1	0											
+107	sp_update	As spreader-sticker surfactant			0							1	0											
+108	sp_update	As surfactant on exacto sc 100			0							1	0											
+109	sp_update	As surfactant on segador 10 sc			0							1	0											
+110	sp_update	As surfactant on dozer 10 sc			0							1	0											
+111	sp_update	As a surfactant on quadro8			0							1	0											
+112	sp_update	{asian corn borer }		{Asian corn borer}	0							1	0											
+113	sp_update	Asian corn borer(ostrinia furnacalis guenee )		{Asian corn borer}	0	ostrinia furnacalis guenee						1	0											
+114	sp_update	Asiatic corn borer		{Asian corn borer}	0							1	0											
+115	sp_update	Aspaaragus worms		Asparagus worm	0							1	0											
+116	sp_update	Asparagus worms		Asparagus worm	0							1	0											
+117	sp_update	athracnose		Athracnose	0							1	0											
+118	sp_update	Athracnose		Anthracnose	0							1	0											
+119	sp_update	Bacteria(Pseudomanas spp.)		Bacteria	0	Pseudomanas spp.						1	0											
+120	sp_update	{Bacteriaand }		"Bacteria,"	0							1	0											
+121	sp_update	bacterial fruit rot		Bacterial fruit rot	0							1	0											
+122	sp_update	Bacterial Fruit rot		Bacterial fruit rot	0							1	0											
+123	sp_update	{Bacterial heart rot caused by erwina chrysanthemi}		{Bacterial heart rot}	0	erwina chrysanthemi						1	0											
+124	sp_update	bacterial leaf blight		Bacterial leaf blight	0							1	0											
+125	sp_update	Bacterial Leaf blight		Bacterial leaf blight	0							1	0											
+126	sp_update	bacterial rot		Bacterial rot	0							1	0											
+127	sp_update	bacterial specks		Bacterial specks	0							1	0											
+128	sp_update	bacterial spots		Bacterial spot	0							1	0											
+129	sp_update	bacterial wilt		Bacterial wilt	0							1	0			Bacterial wilt)								
+130	sp_update	Banana freckle disease in banana		Banana freckle disease	0							1	0											
+131	sp_update	Banana ripening		{}	0							1	0											
+132	sp_update	Banana Thrips		Thrips	0							1	0											
+133	sp_update	"Banded leaf,Sheath blight"		Banded leaf and sheath blight	0							1	0											
+134	sp_update	bark borer		Bark borer	0							1	0											
+135	sp_update	basal rot		Basal rot	0							1	0											
+136	sp_update	Basal/ Bulb rot		"Basal rot,Bulb rot"	0							1	0											
+137	sp_update	Basal/Bulb rot		"Basal rot,Bulb rot"	0							1	0											
+138	sp_update	Baterial Crown rot		Baterial cown rot	0							1	0											
+139	sp_update	bath			0							1	0											
+140	sp_update	Bean fly%grubs		"Bean fly,White grub"	0	Holotrichia consanguínea	white grub		True white grub			1	0											
+141	sp_update	bean lycaenid		Bean lycaenid	0							1	0											
+142	sp_update	Bean Podborer		Bean pod borer	0							1	0											
+143	sp_update	"Bean,Podborer"		Bean pod borer	0							1	0											
+144	sp_update	Beanflies		Bean fly	0							1	0											
+145	sp_update	Beanfly		Bean fly	0							1	0											
+146	sp_update	Beet armyworm		Beet armyworm	0							1	0											
+147	sp_update	beetle		Beetles	0							1	0											
+148	sp_update	Beetless		Beetles	0							1	0											
+149	sp_update	bermuda grass		Bermuda grass	0							1	0											
+150	sp_update	bermuda grasses		Bermuda grass	0							1	0											
+151	sp_update	Berry Disease		Berry disease	0							1	0											
+152	sp_update	Berrybores		Coffee berry borer	0							1	0											
+153	sp_update	Black apot		Black spot	0							1	0											
+154	sp_update	black borer		Black borer	0							1	0											
+155	sp_update	black bug		Black bug	0							1	0											
+156	sp_update	black Bugs		Black bug	0							1	0											
+157	sp_update	Black leaf sigatoka		Black sigatoka	0							1	0											
+158	sp_update	black Leaf spot		black leaf spot	0							1	0											
+159	sp_update	Black leaf streak		Black sigatoka	0							1	0											
+160	sp_update	black pod		Black pod 	0							1	0											
+161	sp_update	black rot		Black rot	0							1	0											
+162	sp_update	Black sigatoka /black sigatoka		Black sigatoka	0							1	0											
+163	sp_update	Black Sigatoka ( As adjuvant )		Black sigatoka	0							1	0											
+164	sp_update	Black sigatoka as adjuvant in combination with fungicide		Black sigatoka	0							1	0											
+165	sp_update	Black sigatoka as spray adjuvant		Black sigatoka	0							1	0											
+166	sp_update	Black sigatoka as spray advujant in combination with fungicide		Black sigatoka	0							1	0											
+167	sp_update	Black sigatoka leaf streak		Black sigatoka	0							1	0											
+168	sp_update	"Black spo,"	black spot	"Black spot,"	0							1	0											
+169	sp_update	black spots		Black spot	0							1	0											
+170	sp_update	Black strife		Black stripe	0							1	0											
+171	sp_update	Blackspot		Black spot	0							1	0											
+172	sp_update	Blanket application against broadleaves		Broadleaf weeds	0							1	0											
+173	sp_update	Blanket application on broadleaves		Broadleaf weeds	0							1	0		Blanket application 									
+174	sp_update	blast	Rice blast	Rice blast	0							1	0											
+175	sp_update	blight Anthracnose		"Blight,Anthracnose"	0							1	0											
+176	sp_update	bligth		blight	0							1	0											
+177	sp_update	block rot		Black rot	0							1	0											
+178	sp_update	Blossom thrips		Blosson thrips	0							1	0											
+179	sp_update	Blosson Thrips		Blosson thrips	0							1	0											
+180	sp_update	Blue mold fusarium		"Blue mold,Fusarium"	0							1	0											
+181	sp_update	boll weevil		Boll weevil	0							1	0											
+182	sp_update	Bollworms		Bollworm	0							1	0											
+183	sp_update	Borers		Borer	0							1	0											
+184	sp_update	Botrytis Leaf blight		Botrytis leaf blight	0							1	0											
+185	sp_update	botrytis Leaf blight		Botrytis leaf blight	0							1	0											
+186	sp_update	botrytis Leaf spot		Botrytis leaf blight	0							1	0											
+187	sp_update	Botrytis rot. Grey molds		Grey mold	0	Botrytis cinerea						1	0											
+188	sp_update	botrytis rot		Grey mold	0	Botrytis cinerea				https://ipm.ucanr.edu/agriculture/artichoke/gray-mold-botrytis-fruit-rot/		1	0											
+189	sp_update	BPH		Brown planthopper	0							1	0											
+190	sp_update	{ broadleaves }		{Broadleaf weeds}	0							1	0											
+191	sp_update	broad leaves		{Broadleaf weeds}	0							1	0											
+192	sp_update	Broadleaf of weeds		{Broadleaf weeds}	0							1	0											
+193	sp_update	broadleaf weed	broadleaf weeds 	{Broadleaf weeds}	0							1	0											
+194	sp_update	Broadleaf Weeds		{Broadleaf weeds}	0							1	0											
+195	sp_update	broadleaf weeds		{Broadleaf weeds}	0							1	0											
+196	sp_update	Broadleaf Weeds		{Broadleaf weeds}	0							1	0											
+197	sp_update	Broad-leaf Weeds		{Broadleaf weeds}	0							1	0											
+198	sp_update	broadleaf weedss		{Broadleaf weeds}	0							1	0											
+199	sp_update	Broad-leaved weeds		{Broadleaf weeds}	0							1	0											
+200	sp_update	broadleaves		{Broadleaf weeds}	0							1	0											
+201	sp_update	Brodaleaf weeds		{Broadleaf weeds}	0							1	0											
+202	sp_update	brodleaf weeds		{Broadleaf weeds}	0							1	0			Broadleaf weeds weeds								
+203	sp_update	brodleaves		{Broadleaf weeds}	0							1	0			Broadleaf weeds weeds								
+204	sp_update	Broadleaf weeds weeds		{Broadleaf weeds}	0							1	0											
+205	sp_update	browm Planthopper		Brown planthopper	0							1	0			broadleaves								
+206	sp_update	brown bark rot		Brown bark rot	0							1	0			Broad-leaf Weeds								
+207	sp_update	brown leaf spot		Brown leaf spot	0							1	0			broadleaf weedss								
+208	sp_update	Brown Leaf spot		Brown leaf spot	0							1	0											
+209	sp_update	Brown Leafhopper		Brown leafhopper	0							1	0											
+210	sp_update	brown Leafspot (drone application)		Brown leaf spot	0							1	0			(drone application)								
+211	sp_update	Brown plant hopper		Brown planthopper	0							1	0											
+212	sp_update	Brown Planthopper		Brown planthopper	0							1	0											
+213	sp_update	brown Planthopper		Brown planthopper	0							1	0											
+214	sp_update	Brown planthopper (Nilaparvata Lugens)		Brown planthopper	0							1	0			Nilaparvata Lugens								
+215	sp_update	Brown spots		Brown spot	0							1	0											
+216	sp_update	budworm 		Budworm	0							1	0											
+217	sp_update	BudwormAphid		"Budworm,Aphids"	0							1	0											
+218	sp_update	Budworms		Budworm	0							1	0											
+219	sp_update	bugs		Bugs	0							1	0											
+220	sp_update	bulb rot		Bulb rot	0							1	0											
+221	sp_update	Burrowing Nematodes		Burrowing nematode	0							1	0											
+222	sp_update	Burrowing nematodes		Burrowing nematode	0							1	0											
+223	sp_update	Burrowing Nematode		Burrowing nematode	0							1	0											
+224	sp_update	Burrowing of nematode (Radopholus Similis)		Nematode	0	Radopholus Similis						1	0											
+225	sp_update	Bush Snails		Bush snail	0							1	0											
+226	sp_update	Bush Snail		Bush snail	0							1	0											
+227	sp_update	"Bush,Snails"		Bush snail	0							1	0											
+228	sp_update	Bush snails		Bush snail	0							1	0											
+229	sp_update	butt mold	Butt molds	Butt mold	0							1	0											
+230	sp_update	butt molds		Butt mold	0							1	0											
+231	sp_update	"Butt,Crown mold"		"Butt mold,Crown mold"	0							1	0											
+232	sp_update	"Butt,Crown rot"		"Butt rot,Crown rot"	0							1	0											
+233	sp_update	buttonweed		Buttonweed	0							1	0											
+234	sp_update	cabagge moth		Cabagge moth	0							1	0											
+235	sp_update	cabbage butterfly		Cabbage butterfly	0							1	0											
+236	sp_update	cabbage looper		Cabbage looper	0							1	0											
+237	sp_update	cabbage moth		Cabagge moth	0							1	0											
+238	sp_update	cabbage worm		Cabbage worm	0							1	0											
+239	sp_update	Cabbage worm Aphid		"Cabbage worm,Aphid"	0							1	0											
+240	sp_update	cabbage wormd		Cabbage worm	0							1	0											
+241	sp_update	cabbage worms		Cabbage worm	0							1	0											
+242	sp_update	cadelle		Cadelle beetle	0							1	0											
+243	sp_update	calopogonium		Calopogonium	0							1	0											
+244	sp_update	canker fruit rot		"Canker,Fruit rot"	0							1	0											
+245	sp_update	capsid bug		Capsid bug	0							1	0											
+246	sp_update	capsid bugs		Capsid bug	0							1	0											
+247	sp_update	caseworm		Caseworm	0							1	0											
+248	sp_update	caseworms		Caseworm	0							1	0											
+249	sp_update	caspid bugs		Capsid bug	0							1	0											
+250	sp_update	Cass%ava for the control of			0							1	0											
+251	sp_update	caterpillars		Caterpillar	1							1	0	test: should fail: chk 0 rows updates										
+252	sp_update	Cecid	Cecid fly	Cecid fly	0							1	0											
+253	sp_update	cecid fly		Cecid fly	0							1	0			Cercospora leafpineapple mold								
+254	sp_update	Cecosporaleaf spot		Cercospora leaf spot	0							1	0											
+255	SQL	"UPDATE Staging2 SET pathogens = REPLACE(pathogens,'cercospora' ,'Cercospora leafspot') WHERE pathogens LIKE '%cercospora'  OR pathogens LIKE '%cercospora,%'  "	Cercospora leafspot	Cercospora leaf spot	0							1	0											
+256	sp_update	cercospora alternaria		"Cercospora leaf spot,Alternaria"	0							1	0											
+257	sp_update	cercospora blight		Cercospora leaf blight	0							1	0											
+258	sp_update	cercospora leaf blight		Cercospora leaf blight	0							1	0											
+259	sp_update	cercospora leaf mold		Cercospora leaf mold	0							1	0											
+260	sp_update	cercospora leaf spot		Cercospora leaf spot	0							1	0											
+261	sp_update	cercospora leafspot		Cercospora leaf spot	0							1	0											
+262	sp_update	Cercospora spot		Cercospora leaf spot	0							1	0											
+263	sp_update	Cercospora%eaf%spot		Cercospora leaf spot	0							1	0											
+264	sp_update	Cercspora	{Cercospora }	Cercospora leaf spot	0							1	0											
+265	sp_update	Certain annual grasses		Annual grasses	0							1	0											
+266	sp_update	club root		Clubroot	0							1	0			Cercospora leafpineapple mold								
+267	sp_update	Clubroot caused by Plasmodiophora brassicae		Clubroot	0	Plasmodiophora brassicae						1	0											
+268	sp_update	Coffee Berry disease		Coffee berry disease	0							1	0											
+269	sp_update	coffee berry disease		Coffee berry disease	0							1	0											
+270	sp_update	Coffee ripening			0							1	0											
+271	sp_update	Coffee Rust		Coffee rust	0							1	0											
+272	sp_update	"Coffee Rust,Berry Diseases"		"Coffee rust,Coffee berry disease"	0							1	0											
+273	sp_update	"Coffee,Berry disease"		"Coffee rust,Coffee berry disease"	0							1	0											
+274	sp_update	Cogon shade conditions		Cogon grass	0							1	0											
+275	sp_update	"Cogon,Mutha,Paragrass,Talahib,Fern,"		"Cogon grass,Mutha grass,Para grass,Talahib grass,Fern grass,"	0							1	0											
+276	sp_update	comborer		{Asian corn borer}	0	Ostrinia furnacalis						1	0											
+277	sp_update	Common grassy field		Weeds	0							1	0											
+278	sp_update	confused	confused flour Beetle	Confused flour beetle	0							1	0											
+279	sp_update	Confused flour Beetle		Confused flour beetle	0							1	0											
+280	sp_update	Corm weevils		Corm weevil	0							1	0											
+281	sp_update	Corn borer	Asian corn borer	{Asian corn borer}	0							1	0											
+282	sp_update	corn earworm		Corn earworm	0							1	0											
+283	sp_update	Corn Earworm		Corn earworm	0							1	0											
+284	sp_update	corn rot		Corn rot	0							1	0											
+285	sp_update	corn weevil		Corn weevil	0							1	0											
+286	sp_update	corn weevils		Corn weevil	0							1	0											
+287	sp_update	"corn,"		"Corn,"	0							1	0											
+288	sp_update	"Corn,Rice weevil"		"Corn weevil,Rice weevil"	0							1	0											
+289	sp_update	Cornborer		{Asian corn borer}	0							1	0											
+290	sp_update	cotton stainer	Cotton stainer bug	Cotton stainer bug	0		Dysdercus koenigii					1	0											
+291	sp_update	crabgrasses		Crabgrass	0							1	0											
+292	sp_update	{Crabgrass)}		Crabgrass	0							1	0											
+293	sp_update	crickets		Crickets	0							1	0											
+294	sp_update	crowfoot grass		Crowfoot grass	0							1	0											
+295	sp_update	crowfort grass		Crowfoot grass	0							1	0											
+296	sp_update	crown rot		Crown rot	0							1	0											
+297	sp_update	Crown rot pathogens		Crown rot	0							1	0											
+298	sp_update	"Crown,Spear rot"		Crown and spear rot	0							1	0											
+299	sp_update	Crusgalli		Barnyard grass	0	Echinochloa crus-galli						1	0											
+300	sp_update	cut worm		Cutworm	0							1	0											
+301	sp_update	cutrworm		Cutworm	0							1	0											
+302	sp_update	cutworm		Cutworm	0							1	0											
+303	sp_update	Cutworm whiteflies		"Cutworm,Whitefly"	0							1	0											
+304	sp_update	Cutworm/budworm		"Cutworm,Budworm"	0							1	0											
+305	sp_update	Cutworms		Cutworm	0							1	0											
+306	sp_update	cyperaceous weeds		Cyperaceous weeds	0							1	0											
+307	sp_update	Cyperus difformis		Rice flatsedge	0							1	0											
+308	sp_update	cyperus iria		Rice flatsedge	0							1	0											
+309	sp_update	Cyst nematode (Globedera spp.)		Potato cyst nematodes	0	"Globedera spp: Globodera rostochiensis,G. pallida"						1	0											
+310	sp_update	"Foliar (damping-off,Cercospora leaf spot) drench (damping-off fusarium wilt)"		"Cercospora leaf spot,Damping off,Fusarium wilt"	0							1	0											
+311	sp_update	Damping oil			0							1	0											
+312	sp_update	Damping%off %pythium arrhenomanes		Damping off	0	Pythium arrhenomanes						1	0											
+313	sp_update	Damping-off		Damping off	0							1	0											
+314	sp_update	DBM		Diamondback moth	0	Plutella xylostella						1	0											
+315	sp_update	Deam arm disease		Eutypa Dieback	0							1	0											
+316	sp_update	delatexing agent			0							1	0											
+317	sp_update	Diamond back moth		Diamondback moth	0							1	0											
+318	sp_update	Diamond backed moth		Diamondback moth	0							1	0											
+319	sp_update	Diamond backed- moth		Diamondback moth	0							1	0											
+320	sp_update	Diamond backed-moth		Diamondback moth	0							1	0											
+321	sp_update	Diamond Backmoth		Diamondback moth	0							1	0											
+322	sp_update	Diamond back-moth		Diamondback moth	0							1	0											
+323	sp_update	diamond fruit rot		Diamond fruit spot	0							1	0											
+324	sp_update	Diamond fruit spot		Diamond fruit spot	0	Cercospora hayi						1	0											
+325	sp_update	Diamond fruit spot(cercospora hayil )		Diamond fruit spot	0	Cercospora hayil						1	0											
+326	sp_update	diamond spot		Diamond fruit spot	0							1	0											
+327	sp_update	Diamondback moth		Diamondback moth	0							1	0											
+328	sp_update	Diamondback Moth		Diamondback moth	0							1	0											
+329	sp_update	Diamond-back moth		Diamondback moth	0							1	0											
+330	sp_update	Diamondback moth armyworm		"Diamondback moth caterpillars,Armyworm"	0							1	0											
+331	sp_update	Diomand back moth		Diamondback moth	0							1	0											
+332	sp_update	Diomondback moth		Diamondback moth	0							1	0											
+333	sp_update	diplodia leaf spot		Diplodia leaf spot	0							1	0											
+334	sp_update	Diplodia Leaf spot		Diplodia leaf spot	0	Stenocarpella macrospora						1	0											
+335	sp_update	diplodia rot		Diplodia ear rot	0							1	0											
+336	sp_update	Direct spray on broadleaf weeds		Broadleaf weeds	0							1	0											
+337	sp_update	dirty panicle		Dirty panicle	0							1	0											
+338	sp_update	Downey mildew		Downy mildew	0							1	0											
+339	sp_update	Downly mildew		Downy mildew	0							1	0											
+340	sp_update	downy	downy M	Downy mildew	0							1	0											
+341	sp_update	Downy mildedw		Downy mildew	0							1	0											
+342	sp_update	Downy Mildew		Downy mildew	0							1	0											
+343	sp_update	Downy mildew black rot		"Downy mildew,Black rot"	0							1	0											
+344	sp_update	downy mildew cercospora		"downy mildew,Cercospora"	0							1	0											
+345	sp_update	ear rot		Ear rot	0							1	0											
+346	sp_update	"Early,Late blght"		"Early blght,Late blght"	0							1	0											
+347	sp_update	"Early,Late blight"		"Early blight,Late blight"	0							1	0											
+348	sp_update	Early blght		Early blght	0							1	0											
+349	sp_update	Early light (foliar spray)		Early blght	0							1	0											
+350	sp_update	earworm		Earworm	0							1	0											
+351	sp_update	Earworm (Helicoverpa armigera )		Earworm	0	Helicoverpa armigera 						1	0											
+352	sp_update	Echinochloa spp		Barnyard grass	0	Echinochloa sp.						1	0											
+353	sp_update	Eleusine indica		Crowfootgrass	0				"Indian goosegrass,Yard-grass,Goosegrass,Wiregrass"			1	0											
+354	sp_update	Echinocloa		Barnyard grass	0							1	0											
+355	sp_update	Eutypa Dieback		Eutypa dieback	0							1	0											
+356	sp_update	Fairy ring		Fall armyworm	0							1	0											
+357	sp_update	Fall Armyworm		Fall armyworm	0							1	0											
+358	sp_update	fall armyworm 		Fall armyworm	0							1	0											
+359	sp_update	Fall armyworm%application)		Fall armyworm	0							1	0											
+360	sp_update	Fall armyworm%unmanned aerial%application		Fall armyworm	0							1	0	Fall armyworm(unmanned aerial system%application)										
+361	sp_update	Fall armyworm(drone spray application)		Fall armyworm	0							1	0											
+362	sp_update	Fall armyworm(pip)		Fall armyworm	0							1	0											
+363	sp_update	Fall Armyworm(Spodoptera Frugiperda )		Fall armyworm	0	Spodoptera Frugiperda						1	0											
+364	sp_update	"{Farm operation as a tool disinfectant to control moko,Panama disease}"		"{Moko disease,Panama disease}"	0							1	0											
+365	sp_update	field Crickets		Crickets	0							1	0											
+366	sp_update	Field for the control of rats		Rats	0							1	0											
+367	sp_update	Filed rats		Field rats	0							1	0											
+368	sp_update	Fimbristylis littoralis		Fimbry sedge	0							1	0											
+369	sp_update	Fimbristylis milliacea%(gumi)		Hoorahgrass	0	Fimbristylis milliacea						1	0											
+370	sp_update	finger rot		Finger rot	0							1	0											
+371	sp_update	flea 	Flea beetle	Fleas	0							1	0											
+372	sp_update	flea Beetle		Flea beetle	0							1	0											
+373	sp_update	Flea Beetle		Flea beetle	0							1	0											
+374	sp_update	"Flea,Beetle"		Flea Beetle	0							1	0											
+375	sp_update	fleaBeetle		Flea beetle	0							1	0											
+376	sp_update	Fleasbettle		Flea beetle	0							1	0											
+377	sp_update	Flower Thrips		Thrips	0							1	0											
+378	sp_update	flower weevil		Flower weevil	0							1	0											
+379	sp_update	Freckle Diseases		{Banana freckle disease}	0							1	0											
+380	sp_update	{Freckle desease}		{Banana freckle disease}	0							1	0			[Banana freckle disease disease]								
+381	sp_update	Freckle disease	{Banana freckle disease}	{Banana freckle disease}	0							1	0			[Banana freckle disease disease]								
+382	sp_update	{freckle leagf disease}		{Banana freckle disease}	0							1	0											
+383	sp_update	{freckle}	{freckle disease}	{Banana freckle disease}	0							1	0	chk this is case insensitive		[Banana freckle disease disease]								
+384	sp_update	freekles		{Banana freckle disease}	0							1	0			[Banana freckle disease disease]								
+385	sp_update	frog eye	frog eye le	Frog eye leaf spot	0							1	0			Banana freckle disease leaf disease								
+386	sp_update	Frog eye Leaf spot		Frogeye leaf spot	0							1	0											
+387	sp_update	Frog-eye		Frog eye leaf spot	0							1	0											
+388	sp_update	frogeye disease		Frog eye leaf spot	0							1	0											
+389	sp_update	Frogeye Leaf spot		Frogeye leaf spot	0							1	0											
+390	sp_update	fruit /Shoot borer		Fruit and Shoot borer	0							1	0											
+391	sp_update	"Fruit borer,Shoot borer"		Fruit and Shoot borer	0							1	0											
+392	sp_update	Fruit borerm		Fruit borer	0							1	0											
+393	sp_update	fruit flies		Fruit fly	0							1	0											
+394	sp_update	fruit fly		Fruit fly	0							1	0											
+395	sp_update	fruit rot		Fruit rot	0							1	0											
+396	sp_update	Fruit rot septoria		"Alternaria fruit rot,Septoria leaf spot"	0							1	0											
+397	sp_update	"Fruit rot,brown"		"Fruit rot,Citrus brown rot"	0							1	0											
+398	sp_update	fruit spot		Fruit spot	0							1	0											
+399	sp_update	Fruit spots		Fruit spot	0							1	0											
+400	sp_update	Fruit worm		Fruitworm	0							1	0											
+401	sp_update	"Fruit,shoot borer"		Fruit and shoot borer	0							1	0											
+402	sp_update	Fruitborer		Fruit borer	0							1	0											
+403	sp_update	fruitflies		Fruit fly	0							1	0											
+404	sp_update	fruitfly		Fruit fly	0							1	0											
+405	sp_update	fruitlet rot		Fruitlet core rot	0							1	0											
+406	sp_update	fruitworm		Fruitworm	0							1	0											
+407	sp_update	Fruitworm (heliothis)		Fruitworm	0							1	0											
+408	sp_update	Fruitworms		Fruitworm	0							1	0											
+409	sp_update	fruity rot		Fruity rot	0							1	0											
+410	sp_update	fruity rot septoria		"Fruity rot,Septoria"	0							1	0											
+411	sp_update	frutfly		Fruit fly	0							1	0											
+412	sp_update	Fungal crown mold/ Crown rot		"Crown mold,Crown rot"	0							1	0											
+413	sp_update	Fungal crown mold/Crown rot		"Crown mold,Crown rot"	0							1	0											
+414	sp_update	Fungal crown/Crown rot		"Crown mold,Crown rot"	0							1	0											
+415	sp_update	Fusarium oxysporum f.sp. cubense (panama disease}		Panama disease	0							1	0			[}]								
+416	SQL	"UPDATE Staging2 set pathogens= Replace(pathogens, 'Panama disease}','Panama disease') WHERE pathogens like '%Panama disease}%'"			0							1	0											
+417	sp_update	Fusarium spp.		Fusarium sp.	0							1	0											
+418	sp_update	fusarium wilt		Fusarium wilt	0							1	0											
+419	sp_update	fusarium wilt ( drench application )		Fusarium wilt	0							1	0											
+420	sp_update	Fusarium wilt(fusarium		Fusarium wilt	0							1	0											
+421	sp_update	fusariumwilt		Fusarium wilt	0							1	0											
+422	sp_update	gGreen leafhopper		Green leafhopper	0							1	0											
+423	sp_update	Giant African Snail		Giant african snail	0							1	0											
+424	sp_update	giant african Snail		Giant african snail	0							1	0											
+425	sp_update	Golden Apple snail		Golden apple snail	0							1	0			Golden golden apple snail								
+426	sp_update	Golden apple Snails		Golden apple snail	0							1	0			Golden golden apple snail								
+427	sp_update	Golden Apple Snail%Kuhol%		Golden apple snail	0							1	0			Golden golden apple snail								
+428	sp_update	Golden Snail		Golden apple snail	0							1	0			Golden golden apple snail								
+429	sp_update	goose grass		Goosegrass	0							1	0											
+430	sp_update	goosegrass		Goosegrass	0							1	0											
+431	sp_update	grain moth		Grain moth	0							1	0											
+432	sp_update	"Grain,Rice weevil"		"Grain weevil,Rice weevil"	0							1	0											
+433	sp_update	Grass Sedges		"Grasses,Sedges"	0							1	0											
+434	sp_update	"[Grasses,Awnless barnyard grass,Broadleaf weeds(primrose willow,S.zeylanica) sedges (cyperus difformis,C. iria)]"		"Grasses,Awnless barnyard grass,Broadleaf weeds,primrose willow,Gooseweed,Sedges,Rice sedge,Rice flatsedge"	0	Echinochloa colona	Awnless barnyard grass		" jungli rice,wild rice,deccan grass,jharua"			1	0											
+435	sp_update	Grass weeds		Grasses	0							1	0											
+436	sp_update	Grasses controlled: Echinochloa glabrescens		Barnyard grass	0							1	0											
+437	sp_update	Grasses Sedges		"Grasses,Sedges"	0							1	0											
+438	sp_update	Grasses; Itchgrass		"Grasses,Itchgrass"	0							1	0											
+439	sp_update	grasshopper		Grasshopper	0							1	0											
+440	sp_update	Grasshopper Cutworm		"Grasshopper,Cutworm"	0							1	0											
+441	sp_update	Grasshoppers		Grasshopper	0							1	0											
+442	sp_update	Gray Leaf spot		Gray leaf spot	0							1	0											
+443	sp_update	gray molds		Grey mold	0							1	0											
+444	sp_update	greasy spot		Greasy spot	0							1	0											
+445	sp_update	green leafhoppe		Green leafhopper	0							1	0											
+446	sp_update	Green Leafhopper		Green leafhopper	0							1	0											
+447	sp_update	Greenleafhoppers		Green leafhopper	0							1	0											
+448	sp_update	Grey molds		Grey mold	0							1	0											
+449	sp_update	Grsses		Grasses	0							1	0											
+450	sp_update	Gummy Stem blight		Gummy stem blight	0							1	0											
+451	sp_update	hairy beggarticks		Hairy Beggarticks	0							1	0											
+452	sp_update	Hairy Beggarticks		Hairy beggarticks	0							1	0											
+453	sp_update	headworm		Headworm	0							1	0											
+454	sp_update	Helicotylenchus)		Helicotylenchus	0							1	0											
+455	sp_update	Helminthosphorium Leaf spot		Helminthosporium leaf spot	0							1	0			Helminthosporium leaf spot leafspot								
+456	sp_update	helminthosporium	Helminthosporium leaf spot	Helminthosporium leaf spot	0							1	0			Helminthosporium leaf spot leafspot								
+457	sp_update	Helminthosporium Leaf spot		Helminthosporium leaf spot	0							1	0			Helminthosporium leaf spot leafspot								
+458	sp_update	Heminthosphorium leaf spot		Helminthosporium leaf spot	0							1	0			Helminthosporium leaf spot leafspot								
+459	sp_update	hemithosporium leaf spot		Helminthosporium leaf spot	0							1	0			Helminthosporium leaf spot leafspot								
+460	sp_update	hornworm		Hornworm	0							1	0											
+461	sp_update	Housely Maggots		Housely Maggot	0							1	0											
+462	sp_update	I rugosom		Ischaemum rugosum	0							1	0											
+463	sp_update	I. rogosum		Ischaemum rugosum	0							1	0											
+464	sp_update	Insect pest	Insect pests	Insect pests	0							1	0											
+465	sp_update	Ischaemum rugosum		Ischaemum rugosum	0							1	0											
+466	sp_update	ischaemun rugosum		Ischaemum rugosum	0							1	0											
+467	sp_update	itch grass		Itchgrass	0							1	0			Grasses for the control of echinochloa colona								
+468	sp_update	itchgrass		Itchgrass	0							1	0			GrassesEchinochloa sp.( bayak bok)								
+469	sp_update	jungle rice		Jungle rice	0							1	0											
+470	sp_update	katydid		Katydid	0							1	0											
+471	sp_update	katydids		Katydid	0							1	0											
+472	sp_update	katydisds		Katydid	0							1	0											
+473	sp_update	katyidid		Katyidid	0							1	0											
+474	sp_update	Katyidid		Katydid	0							1	0											
+475	sp_update	khapra Beetle		Khapra Beetle	0							1	0											
+476	sp_update	Laaffolder		Ladybird Beetle	0							1	0											
+477	sp_update	lady Beetle		Ladybird Beetle	0							1	0											
+478	sp_update	late blght		Late blght	0							1	0	Late blght										
+479	sp_update	late blight		Late blight	0							1	0											
+480	sp_update	Late blight (Phytophthora infestans )		Late blght	0							1	0											
+481	sp_update	Late blight disease		Late blght	0							1	0											
+482	sp_update	Late Blight. Bulb rot		"Late Blight,Bulb rot"	0							1	0											
+483	sp_update	Late/ early blight		"Late blight,Early blight"	0							1	0											
+484	sp_update	Late/early blight		"Late blight,Early blight"	0							1	0											
+485	sp_update	leady Beetle		Ladybird Beetle	0							1	0											
+486	sp_update	leaf blight		Leaf blight	0							1	0											
+487	sp_update	Leaf dieback caused by fusarium sp.		Fusarium spp.	0							1	0											
+488	sp_update	leaf folder		Leaf folder	0							1	0											
+489	sp_update	{Leaffolder}		{Leaf folder}	0							1	0											
+490	sp_update	leaf hoppers		Leafhoppers	0							1	0											
+491	sp_update	leaf miner		Leaf miner	0							1	0											
+492	sp_update	Leaf mold		Leaf mold	0							1	0											
+493	sp_update	leaf roller		Leaf roller	0							1	0											
+494	sp_update	leaf speckle		Leaf speckle	0							1	0											
+495	sp_update	leaf spot		Leaf spot	0							1	0											
+496	sp_update	Leaf spots		Leaf spot	0							1	0											
+497	sp_update	Leaffolde	leaffolder	Leaf folder	0							1	0											
+498	sp_update	Leafholder		Leaf folder	0							1	0											
+499	sp_update	leafhopper		Leafhopper	0							1	0											
+500	sp_update	Leafhopper (jassids)		Leafhopper	0							1	0											
+501	sp_update	Leafhopperr		Leafhopper	0							1	0											
+502	sp_update	leafhoppers		Leafhopper	0							1	0											
+503	sp_update	Leafminer Aphid		"Leafminer,Aphids"	0							1	0											
+504	sp_update	leafminer		Leafminer	0							1	0											
+505	sp_update	Leafminer		Leafminer	0							1	0											
+506	sp_update	leafolder		Leaf folder	0							1	0											
+507	sp_update	leafroller		Leafroller	0							1	0											
+508	sp_update	Leafspot		leaf spot	0							1	0											
+509	sp_update	leafworm		Cotton leafworm	0							1	0											
+510	sp_update	Leaspot		leaf spot	0							1	0											
+511	sp_update	leptochloa chinensis		Red sprangletop	0							1	0											
+512	sp_update	Leptochloa chinesis		Red sprangletop	0							1	0											
+513	sp_update	lesser grain Beetle		Lesser grain Beetle	0							1	0											
+514	sp_update	lesser grain borer		Lesser grain borer	0							1	0											
+515	sp_update	let blight		Late blight	0							1	0											
+516	sp_update	Locusts-nymphs/ Locusts-adult		Locust	0							1	0											
+517	sp_update	loopers		Loopers	0							1	0											
+518	sp_update	M.vaginalis		Pickerel weed	0	Monochoria vaginalis						1	0											
+519	sp_update	maggot		Maggot	0							1	0											
+520	sp_update	Maggot field ants		"Maggot,Ants"	0							1	0											
+521	sp_update	maggots		Maggots	0							1	0											
+522	sp_update	Maggots		Maggot	0							1	0											
+523	sp_update	Mango leaf hoppper		Mango leafhopper	0							1	0											
+524	sp_update	Mango Leafhopper		Mango leafhopper	0							1	0											
+525	sp_update	Mango ripening			0							1	0											
+526	sp_update	" (stem,Mat spray)"			0					" (stem,Mat spray)"		1	0											
+527	sp_update	maturity stain			0							1	0											
+528	sp_update	mealu Bugs		Mealy bug	0							1	0											
+529	sp_update	mealy bug		Mealy bug	0							1	0											
+530	sp_update	Mealy bug scale insect		"Mealy bug,Scale insect"	0							1	0											
+531	sp_update	mealy Bugs		Mealy bug	0							1	0											
+532	sp_update	mealybug		Mealybug	0							1	0											
+533	sp_update	Mealybug		Mealy bug	0							1	0											
+534	sp_update	MealyuBugs		Mealy bug	0							1	0											
+535	sp_update	melanose	Melanose scab	Citrus Black Spot	0							1	0											
+536	sp_update	Meloidogyne		Root-knot nematode	0							1	0											
+537	sp_update	melon worm		Melon worm	0							1	0											
+538	sp_update	Melon worms		Melon worm	0							1	0											
+539	sp_update	melonworm		Melon worm	0							1	0											
+540	sp_update	mice		Mice	0							1	0											
+541	sp_update	mildew		Mildew	0							1	0											
+542	sp_update	mildews		Mildew	0							1	0											
+543	sp_update	mites		Mites	0							1	0											
+544	sp_update	{mold}	{ mold}	Pineapple mold	0							1	0											
+545	sp_update	Moko disease as disinfectant tool		{Moko Disease}	0							1	0											
+546	sp_update	Moko disease caused by Ralstonia Solanacearum Race 2		{Moko Disease}	0							1	0											
+547	sp_update	Moko disease or Fusarium wilt		"Moko disease,Fusarium wilt"	0							1	0											
+548	sp_update	{ moko disease}		{Moko Disease}	0							1	0											
+549	sp_update	Moko Disease		{Moko Disease}	0							1	0											
+550	sp_update	Moko	Moko Disease	{Moko Disease}	0							1	0											
+551	sp_update	Mole Cricket		Mole cricket	0							1	0											
+552	sp_update	mole Crickets		Mole Cricket	0							1	0											
+553	sp_update	Monochoria vaginalis (Gabing-uwak)		Pickerel weed	0							1	0											
+554	sp_update	morning glory		Field Bindweed	0							1	0											
+555	sp_update	"Mutha,Paragrass,Talahib,Fern,Shade conditions"		"Mutha grass,Paragrass,Talahib grass,Fern  grass"	0							1	0											
+556	sp_update	Mycosphaerella fijiensis(Black Sigatoka)		Black Sigatoka	0							1	0											
+557	sp_update	Natural induction flowering			0							1	0											
+558	sp_update	neamatode		Nematode	0							1	0											
+559	sp_update	neck rot		Neck rot	0							1	0											
+560	sp_update	Neck/node rice blast		Rice blast	0							1	0											
+561	sp_update	neckrot		Neck rot	0							1	0											
+562	sp_update	nemotodes		Nematodes	0							1	0											
+563	sp_update	Northern corn leaf blight white spot Gray leaf spot brown spot		"Northern corn leaf blight,White spot,Grey leaf spot,Brown spot"	0							1	0											
+564	sp_update	nut rot		Coconut nut rot 	0						Coconut	1	0											
+565	sp_update	Nutsedge Broadleaf Weeds		"Nutsedge,Broadleaf weeds"	0							1	0											
+566	sp_update	Oriental Fruit fly		Oriental fruit fly	0							1	0											
+567	sp_update	other harmful rodents		Rodents	0							1	0											
+568	sp_update	other soil insect	other soil insects	Soil Insects	0							1	0											
+569	sp_update	other soil insects		Soil Insects	0							1	0											
+570	sp_update	other soil pests		Soil Pests	0							1	0											
+571	sp_update	other soilinsects		Soil Insects	0							1	0											
+572	sp_update	{ Panama disease}			0							1	0			[ Panama]								
+573	sp_update	Panama disease caused by Fusarium oxysporum		Panama disease	0							1	0											
+574	sp_update	Panicle Rice blast caused by Pyricularia oryzae		Panicle rice blast	0							1	0											
+575	sp_update	panicle/blossom blight		Blossom blight	0						Mango	1	0											
+576	sp_update	perennial grass	Perennial grasses	Perennial grasses	0							1	0											
+577	sp_update	Perennial Sedges		Perennial sedges	0							1	0											
+578	sp_update	phoma blight		Phoma blight	0						Asparagus	1	0											
+579	sp_update	phomopsid blight		Phomopsis blight	0						Eggplant	1	0											
+580	sp_update	Phythopthora heart rot disease		Phythopthora rot	0						Pineapple	1	0											
+581	sp_update	phytophthora		Phythopthora rot	0							1	0											
+582	sp_update	pidermites		spider mites	0							1	0											
+583	sp_update	Pineapple disease (Ceratocystis paradoxa )		Pineapple disease	0	Ceratocystis paradoxa						1	0											
+584	sp_update	Pineapple disease(Cercospora hayil )		Pineapple disease	0	Cercospora hayil 						1	0											
+585	sp_update	Pineapple flowering			0							1	0											
+586	sp_update	pineapple mites		Pineapple mites	0							1	0											
+587	sp_update	pink disease		Pink disease	0						Coffee	1	0											
+588	sp_update	pink rot		Pink rot	0						Celery	1	0											
+589	sp_update	Pink scavenger larva		Pink scavenger larva	0						Pineapple	1	0											
+590	sp_update	pitmark		Pitmark	0							1	0											
+591	sp_update	Plant growth for regulator			0							1	0											
+592	sp_update	Plant growth regulator			0							1	0											
+593	sp_update	planthopper		Planthopper	0							1	0											
+594	sp_update	planthoppers		Planthopper	0							1	0											
+595	sp_update	podborer		Podborer	0							1	0											
+596	sp_update	Potato Cyst Nematode		Potato cyst nematode	0							1	0											
+597	sp_update	powdery	Powdery mildew	Powdery mildew	1							1	0											
+598	sp_update	Powdery m	powdery mi	Powdery mildew	0							1	0											
+599	sp_update	powdery mildew	Powdery mildew	Powdery mildew	1							1	0											
+600	sp_update	Powdery Mildew		Powdery mildew	0							1	0											
+601	sp_update	Powdery milew		Powdery mildew	0							1	0											
+602	sp_update	powdwery mildew		Powdey mildew	0							1	0											
+603	sp_update	Purple blutch		Purple blotch	0							1	0											
+604	sp_update	red flour Beetle		Red flour beetle	0							1	0											
+605	sp_update	Red flour Beetle		Red flour beetle	0							1	0											
+606	sp_update	red sprangletop		Red sprangletop	0						Onion	1	0											
+607	SQL	"UPDATE  <TABLE> SET pathogens = 'Green leafhopper,brown planthopper,Rice bug' WHERE  pathogens = 'Green leafhopper,brown planthopper,rice'"			0							1	0											
+608	sp_update	Rice Black bug		Rice black bug	0							1	0											
+609	sp_update	rice blackbug		Rice black bug	0							1	0											
+610	sp_update	Rice blast sheath blight		"Rice blast,Sheath blight"	0							1	0											
+611	sp_update	rice bug	rice bugs	Rice bug	0							1	0											
+612	sp_update	rice Bugs		Rice bug	0							1	0											
+613	sp_update	Rice Leaf folder		Rice leaf folder	0							1	0											
+614	sp_update	rice stemborer		Rice stemborer	0							1	0											
+615	sp_update	rice weevil		Rice weevil	0							1	0											
+616	sp_update	Rice whorl Maggot		Rice whorl maggot	0							1	0											
+617	sp_update	ricebug		Rice bug	0							1	0											
+618	sp_update	Rindborer	rindborers	Rind borer	0						Citrus	1	0											
+619	sp_update	rindworm		Rindworm	0						Watermelon	1	0											
+620	sp_update	ring spot		Ringspot	0							1	0											
+621	sp_update	Ripener			0						Sugarcane	1	0											
+622	sp_update	root flies		Root fly	0						Sugarcane	1	0											
+623	sp_update	Rust-red Beetle		Red flour Beetle	0							1	0											
+624	sp_update	S.zylanica		Gooseweed	0							1	0											
+625	sp_update	saw toothed grain Beetle		Saw toothed grain Beetle	0							1	0											
+626	sp_update	Saw toothed grain Beetle		Saw toothed grain beetle	0							1	0											
+627	sp_update	scab stem		Scab	0							1	0											
+628	sp_update	scab. Citrus Black Spot		"Citrus scab,Citrus black spot"	0							1	0											
+629	sp_update	Scabs		Scab	0							1	0											
+630	sp_update	scale insect		Scale insect	0							1	0											
+631	sp_update	scale insects		Scale insect	0							1	0											
+632	sp_update	"scale,insect"		Scale insect	0							1	0											
+633	sp_update	scaring beetl	scaring beetle	Scarring Beetle	0							1	0											
+634	sp_update	scaring Beetle		Scarring Beetle	0							1	0											
+635	sp_update	scaring weevil		Scarring Beetle	0							1	0											
+636	sp_update	scarring weevil		Scarring Beetle	0							1	0											
+637	sp_update	Sedge (Cyperus rotondus )		"Sedge,Purple Nutsedge"	0							1	0											
+638	sp_update	sedges		Sedges	0							1	0											
+639	sp_update	seed borer		Seed borer	0						Mango	1	0											
+640	sp_update	Seed treatment			0							1	0											
+641	sp_update	seeding blight		Seeding blight	0							1	0											
+642	sp_update	seedling maggot		Seeding maggot	0							1	0											
+643	sp_update	semilooper		Semilooper	0							1	0											
+644	sp_update	semi-looper		Semilooper	0							1	0											
+645	sp_update	Semiloopers		Semilooper	0							1	0											
+646	sp_update	semi-lopper		Semilooper	0							1	0											
+647	sp_update	Semi-Slug		Semi-slug	0							1	0											
+648	sp_update	Semi-slug (Pamarion martens)		Semi-slug 	0							1	0											
+649	sp_update	septoria Alternaria		"Septoria,Alternaria"	0							1	0											
+650	sp_update	{septoria cercospora}		{Septoria cercospora}	0							1	0											
+651	sp_update	{septoria fruit rot}		"{Septoria leaf and fruit spot,Fusarium Fruit Rot}"	0							1	0											
+652	sp_update	Septoria leaf spot		Septoria leaf spot	0	Septoria lycopersici 						1	0											
+653	sp_update	Shealt blight		Sheath blight	0							1	0											
+654	sp_update	sheat rot		Sheath rot	0							1	0											
+655	sp_update	sheath blight		Sheath blight	0							1	0											
+656	sp_update	Sheath blight caused by Rhizoctonia solani		Sheath blight	0							1	0											
+657	sp_update	sheath rot		Sheath rot	0							1	0											
+658	sp_update	shoot borer		Shoot borer	0							1	0											
+659	sp_update	Shoot/ fruit borer		{Fruit and shoot borer}	0							1	0											
+660	sp_update	Shoot/fruit borer		{Fruit and shoot borer}	0							1	0											
+661	sp_update	shootborer		{Fruit and shoot borer}	0							1	0											
+662	sp_update	shot borer		{Fruit and shoot borer}	0							1	0											
+663	sp_update	Sigatoka disease		Sigatoka	0							1	0											
+664	sp_update	Sigatoka or black sigatoka		Black sigatoka	0							1	0											
+665	sp_update	"Sigatoka,rust"		"Sigatoka,Rust"	0							1	0											
+666	sp_update	Sigatoka/ black leaf		Black sigatoka	0							1	0											
+667	sp_update	Sigatoka/black leaf		Black sigatoka	0							1	0											
+668	sp_update	Sigatoka/black sigatoka		"Sigatoka,Black sigatoka"	0							1	0											
+669	sp_update	Sigatoka; diamond-fruit spot		"Sigatoka,Diamond fruit spot"	0							1	0											
+670	sp_update	silk Beetle		Silk beetle	0						Corn	1	0											
+671	sp_update	silkworm		Silkworm	0							1	0											
+672	sp_update	slug		Slug	0							1	0											
+673	sp_update	Slugs		Slug	0							1	0											
+674	sp_update	smoky fruit		smoky fruit	0						Banana	1	0											
+675	sp_update	snail		Snail	0							1	0											
+676	sp_update	Snails		Snail	0							1	0											
+677	sp_update	sooty mold		Sooty mold	0							1	0											
+678	sp_update	souring Beetle		Souring Beetle	0							1	0											
+679	sp_update	{ sp.}		{ spp.}	0							1	0											
+680	sp_update	SpEar rot		Spear rot	0							1	0											
+681	sp_update	spider mites		Spider mite	0							1	0			Cercospora leafpineapple mold								
+682	sp_update	spindletop		Spindletop	0							1	0											
+683	sp_update	Spreader/Sticker			0							1	0											
+684	sp_update	squash Beetle		Squash beetle	0							1	0											
+685	sp_update	squash bug		Squash bug	0							1	0											
+686	sp_update	Squesh Beetle		Squash beetle	0							1	0											
+687	sp_update	stem borer		Stem borer	0						Rice	1	0											
+688	sp_update	"Stem,Leaf blight"		"Stem blight,Leaf blight"	0							1	0											
+689	sp_update	stemborer		Stem borer	0							1	0											
+690	sp_update	stem-end rot		Stem end rot	0						Mango	1	0											
+691	sp_update	stenbore		Stem borer	0							1	0											
+692	sp_update	stinkbug		Stink bug	0							1	0											
+693	sp_update	Stored grain pests specially corn weevil		"Stored grain pests,Corn weevil"	0							1	0											
+694	sp_update	Stored insect pests of milled rice		Stored  milled rice insect pests	0							1	0											
+695	sp_update	"{Stored%milled rice insect pests,Paddy%wheat}"		Stored grain pests	0							1	0											
+696	sp_update	Stored product pest	pests	Stored grain pests	0							1	0											
+697	sp_update	Sugarcane borer (drench application)		Sugarcane borer	0							1	0											
+698	sp_update	Surfactant on Choice 10 SC			0							1	0											
+699	sp_update	Surfactant on Nomess SC 100			0							1	0											
+700	sp_update	Surfactant on Yield Master SC 100			0							1	0											
+701	sp_update	symphylids		Symphylid	0						Pineapple	1	0											
+702	sp_update	synedrella		Synedrella	0							1	0											
+703	sp_update	Termites		Termite	0							1	0											
+704	sp_update	Thips		Thrips	0							1	0											
+705	sp_update	thrips		Thrips	0							1	0											
+706	sp_update	tip borer		Mango tip borer	0							1	0											
+707	sp_update	tip hopper		tip hopper	0							1	0											
+708	sp_update	tipborer		tipborer	0							1	0											
+709	sp_update	tire dip			0							1	0											
+710	sp_update	Tomato Fruitworm		Tomato fruitworm	0							1	0											
+711	sp_update	tubemoth		Potato tuber worm	0						Potato	1	0											
+712	sp_update	tuber moth		Potato tuber worm	0							1	0											
+713	sp_update	tubermoth		Potato tuber worm	0							1	0											
+714	sp_update	twig borer		Twig borer	0						Mango	1	0											
+715	sp_update	twig/Mango tip borer		"Mango twig borer,Mango tip borer"	0							1	0											
+716	sp_update	twister	Twister disease	Twister disease	0							1	0	0 rows updated										
+717	sp_update	vine rot		Botrytis rot	0	Botrytis cinerea						1	0											
+718	sp_update	Web worm		Webworm	0							1	0											
+719	sp_update	Webworm		Web worm	0							1	0											
+720	sp_update	weevils		Weevil	0							1	0											
+721	sp_update	Wet bud		Wet bud rot	0							1	0											
+722	sp_update	Wet-bud		Wet bud rot	0							1	0											
+723	sp_update	wheat		Wheat	0							1	0											
+724	sp_update	while flies		White fly	0							1	0											
+725	sp_update	white backed planthopper		White backed planthopper	0							1	0											
+726	sp_update	White flies		White fly	0							1	0											
+727	sp_update	White grub		Sugarcane White grub	0							1	0											
+728	sp_update	whitebacked planthopper		White backed planthopper	0							1	0											
+729	sp_update	white-backed planthopper		White backed planthopper	0							1	0											
+730	sp_update	whiteflies		White fly	0							1	0											
+731	sp_update	whitefly		White fly	0							1	0											
+732	sp_update	Whitegrubs		Whitegrub	0							1	0											
+733	sp_update	Whorl Manggot		Whorl maggot	0							1	0											
+734	sp_update	"Wilt,Fruit rot"		"Pineapple Wilt,Pineapple  Fruit rot"	0							1	0											
+735	sp_update	yellow sigatoka		Yellow sigatoka	0						Banana	1	0											
+736	SQL	"UPDATE Staging2 Set Pathogens = Replace(pathogens, 'Beetle', 'Beetles') WHERE pathogens LIKE 'Beetle%'"			0							1	0											
+737	SQL	"UPDATE <TABLE> SET pathogens = REPLACE(pathogens,'Hoppers','hopper') WHERE crops like '%Mango%' AND PATINDEX('Hopper%',pathogens) = 1"			0							1	0											
+738	SQL	"UPDATE <TABLE> SET pathogens = REPLACE(pathogens,'Hopper','Mango hopper') WHERE crops like '%Mango%' AND PATINDEX('Hopper%',pathogens) = 1"			0							1	0											
+739	SQL	"UPDATE <TABLE> SET pathogens = REPLACE(pathogens,'Leafhoppers','Leafhopper') WHERE crops like '%Mango%' AND PATINDEX('Leafhopper',pathogens) = 1"			0							1	0											
+740	SQL	"UPDATE <TABLE> SET pathogens = REPLACE(pathogens,'Leafhoppers','leafhopper') WHERE crops like '%Mango%' AND PATINDEX('Leafhopper',pathogens) = 1"			0							1	0											
+741	SQL	"UPDATE <TABLE> SET pathogens = REPLACE(pathogens,'Leafhopper','Mango leafhopper') WHERE crops like '%Mango%'"			0							1	0											
+742	SQL	"UPDATE  <TABLE> SET pathogens = REPLACE(pathogens,'Mango hoppers','Mango hopper') WHERE crops like '%Mango%' AND pathogens LIKE '%Mango hoppers%'"			0							1	0											
+743	SQL	"UPDATE  <TABLE> SET pathogens = REPLACE(pathogens,'Mango hopper','Mango leafhopper') WHERE crops like '%Mango%' AND pathogens LIKE '%Mango hopper%'"			0							1	0											
+744	SQL	"UPDATE  <TABLE> SET pathogens = REPLACE(pathogens,'Mango,Mango Leafhopper','Mango leafhopper') WHERE crops like '%Mango%' AND pathogens LIKE '%Mango,Mango Leafhopper%'"			0							1	0											
+745	SQL	"UPDATE  <TABLE> SET pathogens = REPLACE(pathogens,'Mangp Mango Leafhopper','Mango leafhopper') WHERE crops like '%Mango%' AND pathogens LIKE '%Mangp Mango Leafhopper%'"			0							1	0											
+746	SQL	"UPDATE  <TABLE> SET pathogens = REPLACE(pathogens,'Mango Leafhopper','Mango leafhopper') WHERE crops like '%Mango%' AND pathogens LIKE '%Mango Leafhopper%'"			0							1	0											
+747	SQL	EXEC sp_cap_first_char_of_word			0							1	0											
+748	sp_update	Barnyard grass barnyard grass		Barnyard grass	0							1	0											
+749	sp_update	Barnyard grass spp.		Barnyard grass	0							1	0											
+750	sp_update	Barnyard grass)broadleaf weeds(primrose willow		"Barnyard grass,Broadleaf weeds,Primrose willow"	0							1	0											
+751	sp_update	Cercospora leafpineapple mold		Cercospora leaf mold	0							1	0											
+752	sp_update	Citrus black spot black spot		Citrus black spot	0							1	0											
+753	sp_update	Citrus brown rot spot		Citrus brown rot	0							1	0											
+754	sp_update	"Annual,Perennial grasses"		Grasses	0							1	0											
+755	sp_update	Aphidss		Aphids	0							1	0											
+756	sp_update	Aphid	Aphids	Aphids	0							1	0											
+757	sp_update	Bean fly. grubs		"Bean fly,White grubs"	0							1	0											
+758	sp_update	Beetless		Beetles	0							1	0											
+759	sp_update	Borer)		Borer	0							1	0											
+760	sp_update	Cabagge moth cutworm		"Cabagge moth,Cutworm"	0							1	0											
+761	sp_update	Calopogonium		Calopo	0				Wild ground nut 			1	0											
+762	sp_update	"Cassava for the control of annual,"		{}	0							1	0											
+763	sp_update	Casssava for the control of		{}	0							1	0											
+764	sp_update	"Corn,Earworm"		Corn earworm	0							1	0											
+765	sp_update	Cotton leafworm 		"Egyptian cotton leafworm,Aphids"	0							1	0											
+766	sp_update	Crowfootgrass		Crowfoot grass	0							1	0											
+767	sp_update	Damping off (pythium arrhenomanes)		Damping off 	0	Pythium arrhenomanes						1	0											
+768	sp_update	Direct spray against grasses		Grasses	0							1	0											
+769	sp_update	Fall armyworm(unmanned aerial system%application)		Fall armyworm	0							1	0											
+770	sp_update	Fern  grass		Fern grass	0							1	0											
+771	sp_update	Flea beetles		Flea beetle	0							1	0											
+772	sp_update	"Foot,"		{}	0							1	0											
+773	sp_update	For the control of damping off		Damping off	0							1	0											
+774	sp_update	Frog eye leaf spot		Frogeye leaf spot	0							1	0											
+775	sp_update	Fruit and shoot borer/fruit borer		Fruit and shoot borer	0							1	0											
+776	sp_update	Fruitlet core rot (fcr)		Fruitlet core rot	0							1	0											
+777	sp_update	Fruity rot		Fruit rot	0							1	0											
+778	sp_update	",Fungal,"		",Fungal pests,"	0							1	0											
+779	sp_update	Fungal crown mold		Crown mold	0							1	0											
+780	sp_update	Fusarium oxysporum f.sp cubense		Panama disease	0							1	0											
+781	sp_update	Golden golden apple snail		Golden apple snail	0							1	0											
+782	sp_update	Gooseweed and		Gooseweed	0							1	0											
+783	sp_update	"Grasses (wild rice,Barnyard grass,Broadleaf weeds,Primrose willow,Gooseweed) sedges (rice flatsedge,Rice flatsedge"		"Wild rice,Barnyard grass,Rice flatsedge"	0							1	0											
+784	sp_update	"Grasses (barnyard grass.,Red sprangletop,Ischaemum rugosum"		"Barnyard grass,Red sprangletop,Saramolla grass"	0							1	0											
+785	sp_update	"Nematodes(radopholus,Root-knot nematode,Helicotylenchus"		"Radopholus nematode,Root-knot nematode,Helicotylenchus nematode"	0							1	0											
+786	sp_update	Heminthosporium leaf spot		Helminthosporium leaf spot	0							1	0											
+787	sp_update	Hopper	Hoppers	hoppers	1							1	0											
+788	sp_update	Housely maggot in animal farms		Housely maggot	0							1	0											
+789	sp_update	L.octavalvis		Mexican primrose-willow	0	Ludwigia octovalvis						1	0											
+790	sp_update	Ladybird beetles		Ladybird beetle	0							1	0											
+791	sp_update	Late blght		Late blight	0							1	0											
+792	sp_update	"Alternaria leaf spot,Leaf spot"		Alternaria leaf spot	0							1	0											
+793	sp_update	Leaf banana freckle diseases		Banana freckle disease	0							1	0											
+794	sp_update	Leaf banana freckle disease		Banana freckle disease	0							1	0											
+795	sp_update	Leaf folder ( drone application)		Leaf folder	0							1	0											
+796	sp_update	Leaf folder/cutworm		"Leaf folder,Cutworm"	0							1	0											
+797	sp_update	Leaf folders		Leaf folder	0							1	0											
+798	sp_update	Leaf folfder		Leaf folder	0							1	0											
+799	sp_update	Lesser grain beetles		Lesser grain beetle	0							1	0											
+800	sp_update	Mango mango leafhopper		Mango leafhopper	0							1	0											
+801	sp_update	Mealy bug ant		"Mealy bugs,Ants"	0							1	0											
+802	sp_update	Mealy bug	Mealy bugs	Mealy bugs	0							1	0											
+803	sp_update	Mealy bugs; sugarcane white grub symphylid		"Mealy bugs,Sugarcane white grub,Symphylid"	0							1	0											
+804	sp_update	Moko disease (raistonia solanacearum)		Moko disease	0							1	0											
+805	sp_update	Open conditions		{}	0							1	0											
+806	sp_update	Other annual weeds.		Annual weeds	0							1	0											
+807	sp_update	Other annual weeds		Annual weeds	0							1	0											
+808	sp_update	Paragrass		Para grass	0							1	0											
+809	sp_update	Perennial grassesses		Perennial grasses	0							1	0											
+810	sp_update	Phomopsis blight		Phoma blight	0							1	0											
+811	sp_update	Phythopthora rot heart rot		"Phythopthora rot,Heart rot"	0							1	0											
+812	sp_update	Phythopthora rot spp.		Phythopthora rot	0							1	0											
+813	sp_update	Phytophora root		Phythopthora rot	0							1	0											
+814	sp_update	Pineapple  fruit rot		Pineapple fruit rot	0							1	0											
+815	sp_update	Pod borer	Bean pod borer	Bean pod borer	0							1	0											
+816	sp_update	Podborer		Bean pod borer	0							1	0											
+817	sp_update	"Sugarcane white grub (pre-plant,Post-plant application)"		Sugarcane white grub 	0							1	0											
+818	sp_update	Potato cyst nematodes		Potato cyst nematode	0							1	0											
+819	sp_update	"Black spot,Black rot,Powdery"		"Black spot,Black rot,Powdery mildew"	0							1	0											
+820	sp_update	Powdery mildew mildew		Powdery mildew	0							1	0											
+821	sp_update	Powdey mildew		Powdery mildew	0							1	0											
+822	sp_update	Primrose willow	Mexican primrose-willow	Mexican primrose-willow	0							1	0											
+823	sp_update	"Processed water coagulant,"		{}	0							1	0											
+824	sp_update	Purple nutsedge grasses broadleaf weeds		"Purple nutsedge grass,Broadleaf weeds"	0							1	0											
+825	sp_update	Ralstonia solanacearum - as tool disinfectant		Bacterial wilt	0	Ralstonia solanacearum			Tobacco wilt			1	0											
+826	sp_update	Rice black bugs		Rice black bug	0							1	0											
+827	sp_update	Rice flatsedge (payong-payong)		Rice flatsedge	0			payong-payong				1	0											
+828	sp_update	"Anthracnose,Scab,Rot"		"Anthracnose,Scab,Anthracnose rot"	0							1	0											
+829	sp_update	",S."		{}	0							1	0											
+830	sp_update	Scale insect mealy bugs		"Scale insect,Mealy bugs"	0							1	0											
+831	sp_update	Scarring beetles		Scarring beetle	0							1	0											
+832	sp_update	Sedges controlled: rice flatsedge		Rice flatsedge	0							1	0											
+833	sp_update	Septoria cercospora leaf spot		"Septoria,Cercospora leaf spot"	0							1	0											
+834	sp_update	Septoria leaf and fruit spot		"Septoria leaf spot,Septoria fruit spot"	0							1	0											
+835	sp_update	"Shoot,Fruit borer"		"Shoot borer,Fruit borer"	0							1	0											
+836	sp_update	Sigatoka banana freckle diseases		"Sigatoka,Banana freckle disease"	0							1	0											
+837	sp_update	Silk beetles		Silk beetle	0							1	0											
+838	sp_update	Slug caterpillar		"Slugs,Caterpillars"	0							1	0											
+839	sp_update	Snail	Snails	Snails	0							1	0											
+840	sp_update	Souring beetles		Souring beetle	0							1	0											
+841	sp_update	Sphenoclea zeylanica		Gooseweed	0				"Chickenspike,Wedgewort"			1	0											
+842	sp_update	Squash beetles		Squash beetle	0							1	0											
+843	sp_update	Stem borerr		Stem borer	0							1	0											
+844	sp_update	Stored  milled rice insect pests		Stored grain pests	0							1	0											
+845	sp_update	"Stored product pests(beetles,Weevil,Borer"		Stored grain pests	0							1	0											
+846	sp_update	Twister disease diseas/anthracnose/stem/ bulb rot		"Twister disease,Anthracnose stem and bulb rot"	0							1	0											
+847	sp_update	Use as tool disinfectant		{}	0							1	0											
+848	sp_update	Weedss		Weeds	0							1	0											
+849	sp_update	Wet bud rot rot		Wet bud rot	0							1	0											
+850	sp_update	Wheel  /dip for the control ofmoko disease(ralstonia solanacearum)		Moko disease	0							1	0											
+851	sp_update	White leaf spot caused by chalara (thielaviopsis ) paradoxa		White leaf spot 	0	Chalara paradoxa						1	0											
+852	sp_update	Whori maggot		Whorl maggot	0							1	0											
+853	sp_update	"Cabagge moth,Worm"		"Cabbage moth,Cabbage worm"	0							1	0											
+854	sp_update	28 spotted beetles		28 spotted beetle	0							1	0											
+855	sp_update	Aphidsaphids		Aphids	0							1	0											
+856	sp_update	Anthracnose	Anthracnose [fr]	Anthracnose fruit rot	0							1	0											
+857	SQL	"UPDATE staging2 SET pathogens='Anthracnose fruit rot,Scab' WHERE pathogens='Anthracnose,Scab,Anthracnose rot' AND crops='Mango'"		Anthracnose fruit rot	0	Colletotrichum acutatum	Ripe rot q					1	0											
+858	sp_update	Barnyard grass.		Barnyard grass	0							1	0											
+859	sp_update	Barnyard rice		Barnyard millet	0							1	0											
+860	sp_update	Anthracnose fruit rot stem and bulb rot		Twister	0							1	0											
+861	SQL	"update staging2 set pathogens =Replace(pathogens, 'Bacterial leaf blight', 'Bacterial blight') WHERE crops='Rice'"			0	 Xanthomonas oryzae 					Rice	1	0											
+862	sp_update	Bacterial Leaf Streak		Bacterial Blight	0	 Xanthomonas oryzae 					Rice	1	0											
+863	sp_update	Bean lycaenid		Bean pod borer	0							1	0											
+864	sp_update	Crown mold		Crown rot	0							1	0											
+865	sp_update	"Diamond fruit spot,Fruit spot,,Finger rot,Anthracnose fruit rot,Pitmark,Black sigatoka"		"Diamond fruit spot,Fruit spot,Finger rot,Anthracnose fruit rot,Pitmark,Black sigatoka"	0							1	0											
+866	sp_update	Early blght		Early blight	0							1	0											
+867	sp_update	"Early,Late blight"		"Early blight,Late blight"	0							1	0											
+868	SQL	UPDATE Staging2 SET pathogens = 'Fall armyworm' WHERE pathogens like '%Fall armyworm(unmanned aerial system \[uas\] application)%' ESCAPE '\'			0							1	0											
+869	SQL	update staging2 set pathogens = 'Adult flies' WHERE pathogens='Fly'			0							1	0											
+870	sp_update	"Fruit,Fruit and shoot borer"		Fruit and shoot borer	0							1	0											
+871	sp_update	Giant african Snails		Giant african snail	0							1	0											
+872	sp_update	"Grasses (wild rice,Crow grass,Crow grass,Crabgrass"		"Wild rice,Crow grass,Crow grass,Crabgrass"	0							1	0											
+873	sp_update	Grasses for the control of wild rice		Wild rice	0							1	0											
+874	SQL	"UPDATE Staging2 SET pathogens = REPLACE(pathogens, 'Hopper', 'hopper') WHERE pathogens like '%[^ ]Hopper%'"			0							1	0											
+875	sp_update	Housely maggot		House fly maggot	0							1	0											
+876	sp_update	{Ischaemum rugosum}		{Saramolla grass}	0	Ischaemum rugosum 						1	0											
+877	sp_update	Khapra beetles		Khapra beetle	0							1	0											
+878	sp_update	Iyptochloa grass		Red sprangletop	0	Leptochloa chinensis						1	0											
+879	sp_update	Leaf Anthracnose fruit rot		Anthracnose leaf spot	0							1	0											
+880	sp_update	"Looper,"		"Loopers,"	0							1	0											
+881	sp_update	Mealy bugs through bunch spray		Mealy bugs	0							1	0											
+882	sp_update	Odium		Powdery mildew	0							1	0											
+883	sp_update	Panama disease}		Panama disease	0							1	0											
+884	sp_update	Purple nutsedge grass		Nutsedge	0							1	0											
+885	sp_update	Rice flatsedge );broadleaf weeds(Mexican primrose-willow		"Rice flatsedge,Mexican primrose-willow"	0							1	0											
+886	sp_update	Root rot caused by Phythopthora rot		Phythopthora Root rot	0							1	0											
+887	SQL	update staging2 set pathogens = 'Red rot' WHERE pathogens='Rot' and Crops='Sugarcane'			0						Sugarcane	1	0											
+888	sp_update	Rust-red grain beetles		Rust-red grain beetle	0							1	0											
+889	sp_update	Saw toothed grain beetles		Saw toothed grain beetle	0							1	0											
+890	SQL	"update staging2 set pathogens = REPLACE(pathogens, 'Sedge', 'Sedges') WHERE pathogens not like '%Sedges%' AND  pathogens not like 'Fimbry'"	Sedges		0							1	0											
+891	sp_update	Slug	Slugs	Slugs	0							1	0											
+892	sp_update	Sour paspalum	Sour paspalum grass	Sour paspalum grass	0							1	0											
+893	sp_update	"Stem,Late blight"	Stem blight		0							1	0											
+894	sp_update	Stored product pests		Stored grain pests	0							1	0											
+895	sp_update	Synedrella		Cinderella weed	0	Synedrella nodiflora	Cinderella weed					1	0											
+896	sp_update	"Tomato,fruitworm"		Tomato fruitworm	0							1	0											
+897	sp_update	Torch coral		{}	0							1	0											
+898	sp_update	(colletotrichum musae )			0					colletotrichum musae		1	0											
+899	sp_update	As adjuvant in tank combination with mancozeb 448 f for the control of sigato		Sigatoka	0					adjuvant for mancozeb 448		1	0											
+900	sp_update	As toll disinfectant for the control ofmoko disease caused by ralstonia solanacearum		Moko disease	0					 tool disinfectant		1	0											
+901	sp_update	As tool disinfectant for the control of (fusarium oxysporum f. spp. cubense)		Panama disease	0					 tool disinfectant		1	0											
+902	sp_update	As tool disinfectant for the control ofmoko disease (ralstonia solanacearum )		Moko disease	0					 tool disinfectant		1	0											
+903	sp_update	As tool disinfectant			0							1	0											
+904	sp_update	Black sigatoka as spray advujant in combination with the standard fungicide		Black sigatoka	0					advujant		1	0											
+905	sp_update	Black sigatoka in combination with the standard fungicides used for sigatoka control		Sigatoka	0					advujant		1	0											
+906	sp_update	Broadleaf weeds fimbristylis milliacea(gumi)		"Broadleaf weeds,Hoorahgrass"	0							1	0											
+907	sp_update	Brown/white backed planthopper		"Brown planthopper,White backed planthopper"	0							1	0											
+908	sp_update	Cercospora leaf spot) drench (damping off fusarium wilt)		"Cercospora leaf spot,Damping off,Fusarium wilt"	0							1	0											
+909	sp_update	Common cutworm (spodoptera litura )		Cutworm	0							1	0											
+910	sp_update	Confused flour beetle flourbeetles		Confused flour beetle	0							1	0											
+911	sp_update	Damping off (drench application.		Damping off	0							1	0											
+912	sp_update	Diamond fruit spot caused by cercospora hayi		Diamond fruit spot	0					caused by cercospora hayi		1	0											
+913	sp_update	For the control of scale insect		Scale insect	0							1	0											
+914	sp_update	Golden apple Snails (kuhol)		Golden apple snail	0			kuhol				1	0											
+915	sp_update	Grasses (Barnyard grass		"Grasses,Barnyard grass"	0							1	0											
+916	sp_update	Grasses echinochloa spp.( bayak bok)		Barnyard grass	0			bayak bok				1	0											
+917	sp_update	Helminthosporium leaf spot leaf spot		Helminthosporium leaf spot	0							1	0											
+918	sp_update	Helminthosporium leaf spotleaf spot		Helminthosporium leaf spot	0							1	0											
+919	sp_update	Ischaemum rogusum sedges (		Rice flatsedge	0							1	0											
+920	sp_update	Leaf folderMealy bugs		"Leaf folder,Mealy bugs"	0							1	0											
+921	sp_update	Leafhopper brown planthopper		"Leafhopper,Brown planthopper"	0							1	0											
+922	sp_update	Lesser grain beetle		Lesser grain borer	0							1	0											
+923	sp_update	M. vaginalis		Pickerel Weed	0							1	0											
+924	sp_update	Machinery disinfectant for the control ofmoko disease		Moko disease	0					disinfectant		1	0											
+925	sp_update	Or wheel  for the control ofmoko disease or bacterial wilt (ralstonia solanacearum )		"Moko disease,Bacterial wilt"	0							1	0											
+926	sp_update	Panana diesease (fusarium oxysporum)		Panama disease	0							1	0											
+927	sp_update	RadopholusáNematodes		Radopholus Nematodes	0							1	0											
+928	sp_update	Red flour beetles		Red flour beetle	0							1	0											
+929	sp_update	Rice flatSedges		Rice flatSedge	0							1	0											
+930	sp_update	Root-knot Nematodes		Root-knotnematode	0							1	0											
+931	sp_update	Saramolla grass)		Saramolla grass	0							1	0											
+932	sp_update	Sedges rice flatsedge (ubod-ubod)		"Sedges,Rice flatsedge"	0			ubod-ubod				1	0											
+933	sp_update	Seeding blight (fusarium verticilliodes)		Seeding blight	0		fusarium verticilliodes					1	0											
+934	sp_update	Sheath blight caused by rhizostonia solani		Sheath blight	0					caused by rhizostonia solani		1	0											
+935	sp_update	Smoky fruit	Smoky fruit disease	Smoky fruit disease	0							1	0											
+936	sp_update	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum )		"Moko disease,Bacterial wilt"	0					disinfectant		1	0											
+937	sp_update	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum ) and		"Moko disease,Bacterial wilt"	0					disinfectant		1	0											
+938	sp_update	"As  ,,Tool,Machinery disinfectant for the control ofmoko disease,Fusarium wilt"		"Moko disease,Fusarium wilt"	0					disinfectant		1	0											
+939	sp_update	Wheel  for the control ofmoko disease or bacterial wilt (ralstonia solanacearum )		"Moko disease,Bacterial wilt"	0					disinfectant		1	0											
+940	sp_update	"Grasses (wild rice,Crowfoot grass,Crowfoot grass,Crabgrass"		"Grasses,Wild rice,Crowfoot grass,Crowfoot grass,Crabgrass"	0							1	0											
+941	sp_update	"Grasses (wild rice,Barnyard grass,Broadleaf weeds,Mexican primrose-willow,Gooseweed) sedges (variable flatsedge,Rice flatsedge"		"Grasses,Wild rice,Barnyard grass,Broadleaf weeds,Mexican primrose-willow,Gooseweed,Sedges,Variable flatsedge,Rice flatsedge"	0							1	0											
+942	SQL	"UPDATE Staging2 Set pathogens = REPLACE(pathogens, ',Nematode,', ',Nematodes,') WHERE pathogens LIKE '%,Nematode,%' "			0							1	0											
+943	SQL	UPDATE Staging2 Set pathogens = 'Nematodes' WHERE pathogens = 'Nematode'			0							1	0											
+944	SQL	"UPDATE Staging2 Set pathogens = REPLACE(pathogens, 'Nematode,', 'Nematodes,') WHERE pathogens LIKE 'Nematode,%' "			0							1	0											
+945	sp_update	"Barnyard grass,Barnyard grass"		Barnyard grass	0							1	0											
+946	sp_update	Variable flatsedges		Variable flatsedge	0							1	0											

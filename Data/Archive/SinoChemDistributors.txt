@@ -1,0 +1,53 @@
+id	REGION	PROVINCE	DISTRIBUTOR_NM	ADDRESS	PHONE 1	PHONE 2
+1	Region 1	Ilocos Norte	Gagetan Aramid Agri Corporation	"Barangay 43 Cavit, Laoag City,Ilocos Norte"	(077) 670 8428	
+2	Region 1	Pangasinan	DCS Trading	"7 Sansano Street, Rosales, Pangasinan"	(075) 582 7054	
+3	Region 1	Pangasinan	"S & P Enterprises, Inc."	"2nd Street Gracia Subdivision, Urdaneta, Pangasinan"	(075) 568 2705	(075) 564 3022
+4	CAR	Benguet	Pontiac Farm Supply	"Lakandula Street, Baguio City, Benguet"	(074) 442 56 21	
+5	Region 2	Cagayan	NJL Enterprises	"San Jose, Baggao, Cagayan"	(078) 844 3670	
+6	Region 2	Isabela	"Aljay Agro-Industrial Solutions, Inc."	"Dubinan East, Santiago City, Isabela"	(078) 682 8059	(078) 682 6606
+7	Region 2	Isabela	Asia Gold Trading Corporation	"55 Antonino, Alicia, Isabela"	(078) 662 7036	(078) 634 5218
+8	Region 2	Isabela	Aves Agricultural Supply	"Roxas Street, Cauayan City, Isabela"	(078) 652 2372 	(078) 897 2372
+9	Region 2	Isabela	Isabela Sunrise Trading Corporation	"National Road Poblacion Bugallon Proper, Ramon, Isabela"	(078) 859 2053	(078) 859 2052
+10	Region 2	Isabela	Maharlika Agri Supply	"Public Market National Highway, Cauayan City, Isabela"	(078) 652 2152	
+11	Region 2	Isabela	Solid LSP Agricultural Supply	"National Highway Calamagui 2nd, Ilagan, Isabela"	(078) 624 0245	
+12	Region 3	Nueva Ecija	A1 Agro Fertilizer & Chemical Supply	"Maharlika Highway Marcos Distict, Talavera, Nueva Ecija"	(044) 411 1757	
+13	Region 3	Nueva Ecija	Farmers Atlas Marketing Corporation	"Kilometer 11, Mahalika Highway, Cabanatuan City, Nueva Ecija"	(044) 463 5651	
+14	Region 3	Tarlac	Rankor Agricultural Trading	"L. Cortez Street, Barangay San Nicolas, Concepcion, 2316 Tarlac"	(045) 923 0288	
+15	NCR	Quezon City	"Chemrez Technologies, Inc."	"65 Industria St. Bagumbayan, Quezon City"	(02) 8635 0680	
+16	Region 4	Laguna	Goldenman Marketing Corporation	"B1 L10, Villa Amanda Residences, San Antonio, Los Banos Laguna"	(049) 557 3732	
+17	Region 4	Oriental Mindoro	Concepcion Agricultural Supply	"J.P. Rizal Street, Calapan City, Oriental Mindoro"	(043) 288 4334	
+18	Region 4	Palawan	Palawan Poultry & General Merchandise	"266 Rizal Street, Puerto Princesa, Palawan"		
+19	Region 5	Camarines Sur	Bicol J.L. Agri Corporation	"National Highway, San Jose, Pili, Camarines Sur"	(054) 361 1234	(054) 477 7209
+20	Region 5	Camarines Sur	Naga NTE Corporation	"Bell Magarao, Camarines Sur"	(054) 473 1514	
+21	Region 5	Camarines Sur	New Naga Alta Agricultural Supply	"Door 1 Abilay Building Del Rosario, Naga City, Camarines Sur"	(054) 175 8354	
+22	Region 6	Iloilo	DCDM Marketing Incorporated	"Bagaygay Street, Sara Iloilo"	(033) 292 0070	
+23	Region 6	Iloilo	Model Agro Sales	"Angel Salcedo Street, Sara, Iloilo"	(033) 392 0070	
+24	Region 6	Iloilo	Panay Agro Center Corporation	"Mabini corner De Leon Street, Iloilo City, Iloilo"	(033) 337 5265	(033) 337 9453
+25	Region 6	Iloilo	Systemic Farm Chemicals	"13 B.J. de Leon Street, Iloilo City, Iloilo"	(033) 337 3398	(033) 337 1810
+26	Region 7	Cebu	Everland Agri Corporation - Cebu	"46 M.C. Briones Street, Cebu City, Cebu"	(032) 253 1745	(032) 254 9055
+27	Region 7	Negros Occidental	Crown Agri-Trading Corporation	"D-47 Narra Ave Capitol Scenter Bacolod City, Negros Occidental"	(034) 435 0224	(034) 434 8509
+28	Region 7	Negros Occidental	Donato C. Cruz Trading Corporation	"158-C Singcang, Bacolod City, Negros Occidental"	(034) 435 4107	(034) 434 3944
+29	Region 7	Negros Occidental	"Jynnsons Phils., Inc"	"Att Building Street, Vincent Road Tangub, Bacolod City, Negros Occidental"	(034) 433 5083	
+30	Region 9	Zamboanga	HBO Ventures Inc.	"Bonifacio Street, Pagadian City, Zamboanga del Sur"	(065) 215 1589	
+31	Region 10	Bukidnon	DA Mabelin Store	"Sayre Highway Poblacion Don Carlos, Bukidnon"	(088) 226 2334	
+32	Region 10	Bukidnon	Goodfarms Trading Corporation	"Crossing Kadilangan Poblacion Sur, Don Carlos, Bukidnon"	(088) 2262 423	
+33	Region 10	Bukidnon	Pantua Agri Development Corporation	"Roxas Street corner Fortich Street, Valencia, Bukidnon"	(088) 828 1273	
+34	Region 10	Misamis Oriental	De Oro Maramag Agri Supply Inc.	"175 Lapasan Highway, Cagayan De Oro City, Misamis Oriental"	(088) 272 2535	
+35	Region 10	Misamis Oriental	FMN Agricultural Supply	"Osmena Extention, Cagayan De Oro City, Misamis Oriental"	(088) 858 5161	
+36	Region 11	Davao Del Norte	Tagum Agricultural Development Company Inc	"Prk 18, A.O Floreindo Panabo"	(082) 234 7711	
+37	Region 11	Davao Del Sur	Agway Chemicals Corporation	"JP Laurel corner Villa Abrille, Davao City, Davao Del Sur"	(082) 300 9505	(082) 221 1093
+38	Region 11	Davao Del Sur	Davao PJ Farm Supply	"37 Villa Abrille St, Poblacion District, Davao City, 8000 Davao del Sur"	(082) 285 8527	
+39	Region 11	Davao Del Sur	Everland Agri Corporation - Davao	"423 Villa Abrille Street, Davao City, Davao Del Sur"	(082) 227 5271	
+40	Region 11	Davao Del Sur	Kabukiran Agri-Business Inc. 	"Lot 8 Block 9 Chula Subd. Residences,Cabantian, Davao City, Davao Del Sur"	(064) 229 8674	
+41	Region 11	Davao Del Sur	Lapanday Agricultural and Development Corporation	"Maryknoll Drive, Brgy. Pampanga Davao"	(082) 235 2551	
+42	Region 11	Davao Del Sur	Lapanday Foods Corporation	"Maryknoll Drive, Brgy. Pampanga Davao"	(082) 235 2551	
+43	Region 11	Davao Del Sur	Mars Agriventures and Commodities Inc.	"J.Saavedra Street, Toril, Davao City, Davao Del Sur"	(082) 291 0928	
+44	Region 12	Cotabato	Razonable Agricultural Inputs Distributors Inc.	"Public Market, Kidapawan City, North Cotabato"	(064) 288 1552	
+45	Region 12	South Cotabato	Abigail Farm Supply Inc.	"Tomas Cladio Street, Barangay Libertad, Surallah, South Cotabato"	(083) 238 3753	
+46	Region 12	South Cotabato	"Agri Biz Co. of GS, Inc."	"Ang Kailan Building, Labangal National Highway, General Santos City, South Cotabato"	(083) 552 3976	
+47	Region 12	South Cotabato	Green Gems Farm Supply	"Zulueta Street, Koronadal City, South Catabato"	(083) 228 4046	
+48	Region 12	South Cotabato	Marbel Quality Farm Supply Corporation	"Public Market, Koronadal City, South Cotabato"	(083) 228 2670	
+49	Region 12	Sultan Kudarat	Nature's Blessed 7 Agri Inc.	"Poblacion 3 Pasandalan, Lebak, Sultan Kudarat"	(064) 205 3320	(064) 205 3017
+50	Region 13	Agusan Del Norte	Agusan Farmers Edge Agricultural Supply	"Obrero,Butuan City, Agusan Del Norte"	(085) 225 9363	
+51	Region 13	Agusan Del Norte	"CFS Agri - Ventures, Inc."	"Langihan Public Market, Butuan City, Agusan Del Norte"	(085) 342 5727	
+52	Region 13	Agusan Del Norte	Jeels Masagana Farm Supply	"1 Satorre Street, P-3A-1 Holy Redeemer corner Ochoa Street, Butuan City, Agusan Del Norte"	(085) 341 4926	

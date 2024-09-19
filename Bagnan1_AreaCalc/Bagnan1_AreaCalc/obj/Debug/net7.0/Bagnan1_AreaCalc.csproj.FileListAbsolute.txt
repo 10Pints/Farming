@@ -1,0 +1,15 @@
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\bin\Debug\net7.0\Bagnan1_AreaCalc.exe
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\bin\Debug\net7.0\Bagnan1_AreaCalc.deps.json
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\bin\Debug\net7.0\Bagnan1_AreaCalc.runtimeconfig.json
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\bin\Debug\net7.0\Bagnan1_AreaCalc.dll
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\bin\Debug\net7.0\Bagnan1_AreaCalc.pdb
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\Bagnan1_AreaCalc.csproj.AssemblyReference.cache
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\Bagnan1_AreaCalc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\Bagnan1_AreaCalc.AssemblyInfoInputs.cache
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\Bagnan1_AreaCalc.AssemblyInfo.cs
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\Bagnan1_AreaCalc.csproj.CoreCompileInputs.cache
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\Bagnan1_AreaCalc.dll
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\refint\Bagnan1_AreaCalc.dll
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\Bagnan1_AreaCalc.pdb
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\Bagnan1_AreaCalc.genruntimeconfig.cache
+D:\Dev\Repos\Farming\Bagnan1_AreaCalc\Bagnan1_AreaCalc\obj\Debug\net7.0\ref\Bagnan1_AreaCalc.dll

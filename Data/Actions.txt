@@ -1,0 +1,13 @@
+action_id	action_nm
+1	Contact
+2	Curative
+3	Fumigant
+4	Ingested
+5	Inhaled
+6	Non-selective
+7	Post-emergent
+8	Pre-emergent
+9	Protective
+10	Selective
+11	Systemic
+12	Therapeutic

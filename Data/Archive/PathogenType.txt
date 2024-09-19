@@ -1,0 +1,12 @@
+id	name
+1	Bacteria
+2	Broadleaf Weed
+3	Fungus
+4	Grass Weed
+5	Insect
+6	Mite
+7	Mollusc
+8	Nematode
+9	Rodent
+10	Virus
+11	Weed

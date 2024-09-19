@@ -1,0 +1,5 @@
+9.0
+3
+1       SQLINT        0       4000    "\t"     1     id                  SQL_Latin1_General_CP1_CI_AS
+2       SQLCHAR       0       4000    "\t"     2     pathogen_nm         SQL_Latin1_General_CP1_CI_AS
+3       SQLCHAR       0       4000    "\r\n"   3     pathogen_type_nm    SQL_Latin1_General_CP1_CI_AS

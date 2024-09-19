@@ -1,0 +1,15 @@
+id	name
+1	Fungicide
+2	Herbicide
+3	Insecticide
+4	Growth Regulator
+5	Sticker
+6	Biological Fungicide
+7	Biological Herbicide
+8	Biological Insecticide
+9	Antibiotic
+10	Nematicide
+11	Rodenticide
+12	Fumigant
+13	Miticide
+14	Molluscicide

@@ -1,0 +1,46 @@
+table_id	table_nm	table_type	sub_type	pop_order
+1	AppLog	Log
+2	Action	main	primary static data	10
+2	ActionStaging	staging	primary staging	10
+3	CallRegister	system	system
+4	Chemical	main	main	10
+5	ChemicalAction	main	link	100
+6	ChemicalActionStaging	staging	link	100
+7	ChemicalProduct	main	link	100
+8	ChemicalProductStaging	staging	link	100
+9	ChemicalStaging	staging		10
+10	ChemicalUse	main	link	100
+11	ChemicalUseStaging	staging	link	100
+12	Company	main	main	10
+13	CompanyStaging	staging		10
+14	CorrectionLog	Log
+15	Crop	main	primary static data	10
+16	CropPathogen	main	link	100
+17	CropPathogenStaging	staging	link	100
+18	CropStaging	staging		10
+19	Distributor	main	main	10
+20	DistributorManufacturer	main	link	100
+21	DistributorStaging	staging	primary staging	10
+22	EntryModeFixup	fixup
+23	ForeignKey	system
+24	Import	system
+25	ImportCorrections	fixup	fixup
+26	ImportCorrectionsStaging	staging	fixup	10
+27	ImportErrors	system	fixup
+28	Pathogen	main	primary static data	10
+29	PathogenChemical	main	link	100
+30	PathogenChemicalStaging	staging	link	100
+31	PathogenStaging	staging		10
+32	PathogenType	main	primary static data	10
+33	PathogenTypeStaging	staging	primary staging	100
+34	Product	main		10
+35	ProductCompany	main	link	100
+36	ProductCompanyStaging	staging	link	100
+37	ProductStaging	staging		10
+38	ProductUse	main	link	100
+39	ProductUseStaging	staging	link	100
+40	TableDef	system	primary static data
+41	Type	system	primary static data	10
+42	TypeStaging	staging	primary staging	10
+43	Use	main	primary static data	10
+44	UseStaging	staging	primary staging	10

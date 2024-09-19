@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BCPFORMAT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/sqlserver/2004/bulkload/format">
+  <RECORD xmlns="">
+    <FIELD ID="1" xsi:type="CharTerm" TERMINATOR="\r\n" MAX_LENGTH="4000" COLLATION="Latin1_General_CI_AS" />
+  </RECORD>
+  <ROW xmlns="">
+    <COLUMN SOURCE="1" NAME="FIPS,Admin2,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed,Deaths,Recovered,Active,Combined_Key" xsi:type="SQLNVARCHAR" />
+  </ROW>
+</BCPFORMAT>

@@ -1,0 +1,543 @@
+id	command	search_clause	 not_clause	replace_clause	case sensitive	Latin_name	common_name	local_name	alt_names	note_clause	crops	doit	must_update	comments	import id	exp_cnt	chk	dummy
+540		row cnt		462	1						0	102	0					
+0		blank id cnt			537							438	0		230721			
+1	sp_update	{  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum )}		moko disease	0							1	0	{  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum )}	230721			
+2	sp_update	{ application of Mealy bugs)}		Mealy bugs	1							1	0	{ application of Mealy bugs)}	230721			
+3	sp_update	{ for flowering}								 for flowering		1	0	{ for flowering}	230721			
+4	sp_update	*corn weevil		Corn weevil								1	0	*corn weevil				
+5	sp_update	: cogon%; mixed weeds: Para grass		"Cogon grass,Paragrass"								1	0	: cogon%; mixed weeds: Para grass	230721			
+6	sp_update	"Anatrachyntis larvae (valid only for use by del monte fresh produce (phils),Inc.,Delmonte philippines,Inc.)"		Anatrachyntis larvae						"valid only for use by del monte fresh produce (phils),Inc.,Delmonte philippines,Inc."		1	0	"Anatrachyntis larvae (valid only for use by del monte fresh produce (phils),Inc.,Delmonte philippines,Inc.)"	230721			
+7	sp_update	"Mature,Shaded conditions: cogon ; immature,: cogon ; mixed weeds: Para grass,Carabao grass"		"Cogon grass,Paragrass,Carabao grass"								1	0	"Mature,Shaded conditions: cogon ; immature,: cogon ; mixed weeds: Para grass,Carabao grass"	230721			
+8	sp_update	"Surface disinfection in animal facilities (livestock housing,Abbaitors,Animal transport,Equipment,Warehouse for"		Abbaitoirs						"Surface disinfection in animal facilities (livestock housing,Abbatoirs,Animal transport,Equipment,Warehouse for"		1	0	"Surface disinfection in animal facilities (livestock housing,Abbaitors,Animal transport,Equipment,Warehouse for"	230721			
+9	sp_update	Adult files		Adult flies								1	0	Adult files	230721			
+10	sp_update	Alternari a leaf spot		Alternaria leaf spot								1	0	Alternari a leaf spot	230721			
+11	sp_update	Anatrachyntis larvae (valid only for use by del monte fresh produce (phils)		Anatrachyntis larvae 						(valid only for use by del monte fresh produce (phils)		1	0	Anatrachyntis larvae (valid only for use by del monte fresh produce (phils)	230721			
+12	sp_update	"Anatrachyntis larvae (VALID ONLY FOR USE BY Del Monte fresh produce (Phils),Inc. and Delmonte philippines,Inc.)"		Anatrachyntis larvae						"VALID ONLY FOR USE BY Del Monte fresh produce (Phils),Inc. and Delmonte philippines,Inc."		1	0	"Anatrachyntis larvae (VALID ONLY FOR USE BY Del Monte fresh produce (Phils),Inc. and Delmonte philippines,Inc.)"	230721			
+13	sp_update	Anthracnose fruit rot(colletotrichum musae )		Broadleaved weeds								1	0	Anthracnose fruit rot(colletotrichum musae )	230721			
+14	sp_update	Antss		Broadleaved weeds								1	0	Antss	230721			
+15	sp_update	As  		"Broadleaved weeds,Grasses"								1	0	As  	230721			
+16	sp_update	As a single adjuvant or in combination with the diazinon 60 ec for the control of scale insect		Scale insect						or in combination with the diazinon 60 ec		1	0	As a single adjuvant or in combination with the diazinon 60 ec for the control of scale insect	230721			
+17	sp_update	As a surfactant on vagary 100 sc								surfactant		1	0	As a surfactant on vagary 100 sc	230721			
+18	sp_update	As adjuvant for the control of black sigatoka								adjuvant		1	0	As adjuvant for the control of black sigatoka	230721			
+19	sp_update	As adjuvant in tank combination with mancozeb 448 f for the control of sigato								adjuvant		1	0	As adjuvant in tank combination with mancozeb 448 f for the control of sigato	230721			
+20	sp_update	As adjuvant in tank combination with mancozeb 448 f for thecontrol of sigato								adjuvant		1	0	As adjuvant in tank combination with mancozeb 448 f for thecontrol of sigato	230721			
+21	sp_update	As disinfectaant for dairy								disinfectant		1	0	As disinfectaant for dairy	230721			
+22	sp_update	As disinfectant for the control of crown rot								disinfectant		1	0	As disinfectant for the control of crown rot	230721			
+23	sp_update	As fumigant for the control of stored grain pests								fumigant		1	0	As fumigant for the control of stored grain pests	230721			
+24	sp_update	As plant growth regulation for the flower induction								PGR		1	0	As plant growth regulation for the flower induction	230721			
+25	sp_update	As surfactant for bisig 100 sc								surfactant		1	0	As surfactant for bisig 100 sc	230721			
+26	sp_update	As surfactant in dominate 100 sc								surfactant		1	0	As surfactant in dominate 100 sc	230721			
+27	sp_update	As surfactant on demolish 100 sc								surfactant		1	0	As surfactant on demolish 100 sc	230721			
+28	sp_update	As surfactant on guarantee 10% sc (ai: bispyribac sPowdery mildew)								surfactant		1	0	As surfactant on guarantee 10% sc (ai: bispyribac sPowdery mildew)	230721			
+29	sp_update	As surfactant on oryza 10 sc (ai: bispyribac sPowdery mildew)								surfactant		1	0	As surfactant on oryza 10 sc (ai: bispyribac sPowdery mildew)	230721			
+30	sp_update	As surfactant on vero 10 sc(ai: bispyribac sPowdery mildew)								disinfectant		1	0	As surfactant on vero 10 sc(ai: bispyribac sPowdery mildew)	230721			
+31	sp_update	As toll disinfectant for the control ofmoko disease caused by ralstonia solanacearum								disinfectant		1	0	As toll disinfectant for the control ofmoko disease caused by ralstonia solanacearum	230721			
+32	sp_update	As toll disinfectant for the control ofmoko disease caused byralstonia solanacearum								disinfectant		1	0	As toll disinfectant for the control ofmoko disease caused byralstonia solanacearum	230721			
+33	sp_update	As tool desinfectant for the control of fusarium wilt								disinfectant		1	0	As tool desinfectant for the control of fusarium wilt	230721			
+34	sp_update	As tool disinfectant								disinfectant		1	0	As tool disinfectant	230721			
+35	sp_update	As tool disinfectant for the control of (fusarium oxysporum f. spp. cubense)								disinfectant		1	0	As tool disinfectant for the control of (fusarium oxysporum f. spp. cubense)	230721			
+36	sp_update	As tool disinfectant for the control of (fusariumoxysporum f. spp. cubense)								disinfectant		1	0	As tool disinfectant for the control of (fusariumoxysporum f. spp. cubense)	230721			
+37	sp_update	As tool disinfectant for the control ofmoko disease (ralstonia solanacearum )								disinfectant		1	0	As tool disinfectant for the control ofmoko disease (ralstonia solanacearum )	230721			
+38	sp_update	As tool disinfectantmoko disease								disinfectant		1	0	As tool disinfectantmoko disease	230721			
+39	sp_update	Boil weevil		Boll weevil								1	0	Boil weevil	230721			
+40	sp_update	Broadleaf weeds (c. rutidosperma		Broadleaf weeds						 c.rutidosperma		1	0	Broadleaf weeds (c. rutidosperma	230721			
+41	sp_update	Broadleaf weeds (Gooseweed		Broadleaf weeds						Gooseweed		1	0	Broadleaf weeds (Gooseweed	230721			
+42	sp_update	Broadleaf weeds (sphenoclea		Broadleaf weeds						sphenoclea		1	0	Broadleaf weeds (sphenoclea	230721			
+43	sp_update	Broadleaf weeds fimbristylis milliacea(gumi)		Broadleaf weeds						fimbristylis milliacea(gumi)		1	0	Broadleaf weeds fimbristylis milliacea(gumi)	230721			
+44	sp_update	Broadleaf weeds sedges		Broadleaf weeds						sedges		1	0	Broadleaf weeds sedges	230721			
+45	sp_update	Broadleaf weeds)		Broadleaf weeds								1	0	Broadleaf weeds)	230721			
+46	sp_update	Broadleaf weeds) ; immature		Broadleaf weeds						immature		1	0	Broadleaf weeds) ; immature	230721			
+47	sp_update	Broadleaf weeds) immature		Broadleaf weeds						immature		1	0	Broadleaf weeds) immature	230721			
+48	sp_update	Broadleaf weeds):		Broadleaf weeds								1	0	Broadleaf weeds):	230721			
+49	sp_update	Broadleaf weeds); imature		Broadleaf weeds						imature		1	0	Broadleaf weeds); imature	230721			
+50	sp_update	Broadleaf weeds); immature		Broadleaf weeds						immature		1	0	Broadleaf weeds); immature	230721			
+51	sp_update	Brown leaf spt		Brown leaf spot								1	0	Brown leaf spt	230721			
+52	sp_update	Brown planthopper (brown planthopper) leaf folder		"Brown planthopper,Leaf folder"								1	0	Brown planthopper (brown planthopper) leaf folder	230721			
+53	sp_update	Brown/white backed planthopper		"Brown planthopper,White backed planthopper"								1	0	Brown/white backed planthopper	230721			
+54	sp_update	Brush Snails		Brush snail								1	0	Brush Snails	230721			
+55	sp_update	Bush Snails		Brush snail								1	0	Bush Snails	230721			
+56	sp_update	Butt	Butt mold	Butt mold								1	0	Butt	230721			
+57	sp_update	Butt rot or base rot		"Butt rot,Base rot"								1	0	Butt rot or base rot	230721			
+58	sp_update	Button weed		Buttonweed								1	0	Button weed	230721			
+59	sp_update	Capcid bug		Capsid bug								1	0	Capcid bug	230721			
+60	sp_update	Case worm	Rice caseworm	Rice caseworm								1	0	Case worm	230721			
+61	sp_update	Caseworm	Rice caseworm	Rice caseworm								1	0	Caseworm	230721			
+62	sp_update	Cercospora leaf spot) drench (damping off fusarium wilt)		"Cercospora leaf spot,Damping off,Fusarium wilt"								1	0	Cercospora leaf spot) drench (damping off fusarium wilt)	230721			
+63	sp_update	Chocolate spots		Chocolate spot								1	0	Chocolate spots	230721			
+64	sp_update	Cogon (open condition)		Cogon grass								1	0	Cogon (open condition)	230721			
+65	sp_update	Cogon (shade condition)		Cogon grass								1	0	Cogon (shade condition)	230721			
+66	sp_update	Common cutworm (spodoptera litura )		Cutworm		spodoptera litura 						1	0	Common cutworm (spodoptera litura )	230721			
+67	sp_update	Confused flour beetle flour		Confused flour beetle								1	0	Confused flour beetle flour	230721			
+68	sp_update	Confused flour beetle flourbeetles		Confused flour beetle								1	0	Confused flour beetle flourbeetles	230721			
+69	sp_update	Control of erwinia carotovora		Bacteria: erwinia carotovora								1	0	Control of erwinia carotovora	230721			
+70	sp_update	"Corn seedling,Maggot"		Corn seedling maggot								1	0	"Corn seedling,Maggot"	230721			
+71	sp_update	"Corn,Rice weevil"		"Corn weevil,Rice weevil"								1	0	"Corn,Rice weevil"	230721			
+72	sp_update	Cornweevil		Corn weevil								1	0	Cornweevil	230721			
+73	sp_update	Cotton leafworms		Cotton leafworm								1	0	Cotton leafworms	230721			
+74	sp_update	Crcospora		Cercospora								1	0	Crcospora	230721			
+75	sp_update	Crikets	Crickets	Crickets								1	0	Crikets	230721			
+76	sp_update	Crow grass		Crowfoot grass								1	0	Crow grass	230721			
+77	sp_update	Crow grass.		Crowfoot grass								1	0	Crow grass.	230721			
+78	sp_update	Crown rot/ butt rot		"Crown rot,Butt rot"								1	0	Crown rot/ butt rot	230721			
+79	sp_update	"Crown,Butt molds"		"Crown mold,Butt mold"								1	0	"Crown,Butt molds"	230721			
+80	sp_update	Cucurbit beetles		Cucurbit beetle								1	0	Cucurbit beetles	230721			
+81	sp_update	Cutworm. aphids		"Cutworm,aphids"								1	0	Cutworm. aphids	230721			
+82	sp_update	Damping off-		Damping off 								1	0	Damping off-	230721			
+83	sp_update	Damping off (drench application.		Damping off 								1	0	Damping off (drench application.	230721			
+84	sp_update	Day flower		Asiatic Dayflower								1	0	Day flower	230721			
+85	sp_update	Dayflower		Asiatic Dayflower								1	0	Dayflower	230721			
+86	sp_update	Diamond fruit spot caused by cercospora hayi		Diamond fruit spot								1	0	Diamond fruit spot caused by cercospora hayi	230721			
+87	sp_update	"Diamondback moth,Asparagus"	"Diamondback moth,Asparagus worm"	"Diamondback moth,Asparagus worm"								1	0					
+88	sp_update	Diamondback moth (diamondback moth)		Diamondback moth								1	0	Diamondback moth (diamondback moth)	230721			
+89	sp_update	Dirty panicle disease complex		Dirty panicle								1	0	Dirty panicle disease complex	230721			
+90	sp_update	Disinfection of surfaces								Disinfection		1	0	Disinfection of surfaces	230721			
+91	sp_update	Downy mildew as 		Downy mildew								1	0	Downy mildew as 	230721			
+92	sp_update	Dowy mildew		Downy mildew								1	0	Dowy mildew	230721			
+93	sp_update	Echinochloa barnyard grass		Barnyard grass								1	0	Echinochloa barnyard grass	230721			
+94	sp_update	"Surface disinfection and water sanitation in animal facilities for poultry,swine,bovine,equine; for terminal blosecurity and"								Disinfection		1	0	Equine; for terminal blosecurity and	230721			
+95	sp_update	Disinfection of surfaces and equipment in farm animal housing								Disinfection		1	0	Equipment	230721			
+96	sp_update	"Disinfection of surfaces,equipment and water delivery system in animal facilities"								Disinfection		1	0					
+97	sp_update	Equipment in farm animal housing										1	0	Equipment in farm animal housing	230721			
+98	sp_update	Fall armyworm(knapsack spraying)		Fall armyworm								1	0	Fall armyworm(knapsack spraying)	230721			
+99	sp_update	Fern (shade condition)		Fern						Shady conditions		1	0	Fern (shade condition)	230721			
+100	sp_update	Fern grass										STOP	0	Fern grass	230721			
+101	sp_update	Field bindweed										0	0	Field bindweed	230721			
+102	sp_update	Field rats										0	0	Field rats	230721			
+103	sp_update	Fileds crickets										0	0	Fileds crickets	230721			
+104	sp_update	Fimbristylis										0	0	Fimbristylis	230721			
+105	sp_update	Fimbry Sedges										0	0	Fimbry Sedges	230721			
+106	sp_update	Finger rot										0	0	Finger rot	230721			
+107	sp_update	Flea beetle										0	0	Flea beetle	230721			
+108	sp_update	Flower weevil										0	0	Flower weevil	230721			
+109	sp_update	Foliar (damping off										0	0	Foliar (damping off	230721			
+110	sp_update	For the control of scale insect										0	0	For the control of scale insect	230721			
+111	sp_update	Frekles										0	0	Frekles	230721			
+112	sp_update	Frogeye leaf spot										0	0	Frogeye leaf spot	230721			
+113	sp_update	Fruit and shoot borer										0	0	Fruit and shoot borer	230721			
+114	sp_update	Fruit borer										0	0	Fruit borer	230721			
+115	sp_update	Fruit core rot										0	0	Fruit core rot	230721			
+116	sp_update	Fruit fly										0	0	Fruit fly	230721			
+117	sp_update	Fruit rot										0	0	Fruit rot	230721			
+118	sp_update	Fruit spot										0	0	Fruit spot	230721			
+119	sp_update	Fruit tot										0	0	Fruit tot	230721			
+120	sp_update	Fruit/ shoot borer										0	0	Fruit/ shoot borer	230721			
+121	sp_update	Fruitlet core rot										0	0	Fruitlet core rot	230721			
+122	sp_update	Fruitworm										0	0	Fruitworm	230721			
+123	sp_update	Fungal diseases caused by fusarium spp.										0	0	Fungal diseases caused by fusarium spp.	230721			
+124	sp_update	Fungal heart										0	0	Fungal heart	230721			
+125	sp_update	Fungal pests										0	0	Fungal pests	230721			
+126	sp_update	Fusarium										0	0	Fusarium	230721			
+127	sp_update	Fusarium fruit rot										0	0	Fusarium fruit rot	230721			
+128	sp_update	Fusarium pallidoroseum										0	0	Fusarium pallidoroseum	230721			
+129	sp_update	Fusarium solani										0	0	Fusarium solani	230721			
+130	sp_update	Fusarium spp.										0	0	Fusarium spp.	230721			
+131	sp_update	Fusarium wilt										0	0	Fusarium wilt	230721			
+132	sp_update	Fusarium wilt (fusarium oxysporum f. spp. cubense tr4)										0	0	Fusarium wilt (fusarium oxysporum f. spp. cubense tr4)	230721			
+133	sp_update	Fusarium wit										0	0	Fusarium wit	230721			
+134	sp_update	Gangetica										0	0	Gangetica	230721			
+135	sp_update	Giant african snail										0	0	Giant african snail	230721			
+136	sp_update	Golden apple Snails										0	0	Golden apple Snails	230721			
+137	sp_update	Golden apple Snails (kuhol)										0	0	Golden apple Snails (kuhol)	230721			
+138	sp_update	Goosegrass										0	0	Goosegrass	230721			
+139	sp_update	Gooseweed										0	0	Gooseweed	230721			
+140	sp_update	Grain moth										0	0	Grain moth	230721			
+141	sp_update	Grain weevil										0	0	Grain weevil	230721			
+142	sp_update	Gramnae weeds										0	0	Gramnae weeds	230721			
+143	sp_update	Grasses										0	0	Grasses	230721			
+144	sp_update	Grasses (Barnyard grass										0	0	Grasses (Barnyard grass	230721			
+145	sp_update	Grasses (e. indica										0	0	Grasses (e. indica	230721			
+146	sp_update	"Grasses (e. indica,D. setigera,P. conjugatum),Broadleaves (c. rutidosperma,A,Gangetica,E. sonchifolia,H. corymbosa,C."		"Grasses,Broadleaved weeds"								0	0	"Grasses (e. indica,D. setigera,P. conjugatum),Broadleaves (c. rutidosperma,A,Gangetica,E. sonchifolia,H. corymbosa,C."	230721			
+147	sp_update	"Grasses (e.colona,Eleusine indica,D.aegyptium,D.ciliaris)"		Grasses						"Grasses (e.colona,Eleusine indica,D.aegyptium,D.ciliaris)"		1	0	"Grasses (e.colona,Eleusine indica,D.aegyptium,D.ciliaris)"	230721			
+148	sp_update	Grasses (echinochlora sp										0	0	Grasses (echinochlora sp	230721			
+149	sp_update	Grasses (red sprangletop										0	0	Grasses (red sprangletop	230721			
+150	sp_update	Grasses (wild rice										0	0	Grasses (wild rice	230721			
+151	sp_update	Grasses broadleaf weeds										0	0	Grasses broadleaf weeds	230721			
+152	sp_update	"Grasses controlled: echinochloa glabrescens,Ischaemun rugosum,Leptochloa chinensis,Sedges controlled: cyperus iria,Cyperus"		Grasses						"Grasses controlled: echinochloa glabrescens,Ischaemun rugosum,Leptochloa chinensis,Sedges controlled: cyperus iria"		1	0	"Grasses controlled: echinochloa glabrescens,Ischaemun rugosum,Leptochloa chinensis,Sedges controlled: cyperus iria,Cyperus"	230721			
+153	sp_update	Grasses echinochloa spp.( bayak bok)										0	0	Grasses echinochloa spp.( bayak bok)	230721			
+154	sp_update	Grasses sdeges										0	0	Grasses sdeges	230721			
+155	sp_update	Grasses weeds										0	0	Grasses weeds	230721			
+156	sp_update	"Grasses,Annual,Perennial broadleaves"		"Grasses,Broadleaved weeds"								0	0	"Grasses,Annual,Perennial broadleaves"	230721			
+157	sp_update	Grasses; itchgrass										0	0	Grasses; itchgrass	230721			
+158	sp_update	Grasshopper										0	0	Grasshopper	230721			
+159	sp_update	Gray leaf spot										0	0	Gray leaf spot	230721			
+160	sp_update	Greasy spot										0	0	Greasy spot	230721			
+161	sp_update	Green lafhopper										0	0	Green lafhopper	230721			
+162	sp_update	Green leaf hopper										0	0	Green leaf hopper	230721			
+163	sp_update	Green leafhopper										0	0	Green leafhopper	230721			
+164	sp_update	Green leafhopper rice black bug										0	0	Green leafhopper rice black bug	230721			
+165	sp_update	Grey leaf spot										0	0	Grey leaf spot	230721			
+166	sp_update	Grey mold										0	0	Grey mold	230721			
+167	sp_update	Grubs										0	0	Grubs	230721			
+168	sp_update	Gummy stem blight										0	0	Gummy stem blight	230721			
+169	sp_update	H. corymbosa										0	0	H. corymbosa	230721			
+170	sp_update	Hairy beggarticks										0	0	Hairy beggarticks	230721			
+171	sp_update	Headworm										0	0	Headworm	230721			
+172	sp_update	Heart rot										0	0	Heart rot	230721			
+173	sp_update	Heart rot caused by Phythopthora rot										0	0	Heart rot caused by Phythopthora rot	230721			
+174	sp_update	Heart rot disease										0	0	Heart rot disease	230721			
+175	sp_update	Helicotylenchus Nematodes										0	0	Helicotylenchus Nematodes	230721			
+176	sp_update	Helminsthosporium leaf spot										0	0	Helminsthosporium leaf spot	230721			
+177	sp_update	Helminthosporium leaf spot										0	0	Helminthosporium leaf spot	230721			
+178	sp_update	Helminthosporium leaf spot leaf										0	0	Helminthosporium leaf spot leaf	230721			
+179	sp_update	Hoorahgrass										0	0	Hoorahgrass	230721			
+180	sp_update	hoppers										0	0	hoppers	230721			
+181	sp_update	Hornworm										0	0	Hornworm	230721			
+182	sp_update	House fly maggot										0	0	House fly maggot	230721			
+183	sp_update	Houseflies (musca domestica) at larval stage										0	0	Houseflies (musca domestica) at larval stage	230721			
+184	sp_update	Housefly (musca domestica ) larvae in animal										0	0	Housefly (musca domestica ) larvae in animal	230721			
+185	sp_update	In all animal housing for poultry										0	0	In all animal housing for poultry	230721			
+186	sp_update	"In_field,Shaded condition%: mixed weeds (grasses,%Broadleaf weeds)%"		"Grasses,Sedges,Broadleaf weeds"								0	0	In field	230721			
+187	sp_update	"Mature,Shaded condition%:%mixed weeds (grasses,Broadleaf weeds) immature,Open field: mixed weeds (grasses,Broadleaf weeds)"										0	0					
+188	sp_update	" (valid only for use by del monte philippines,Inc.)"								"valid only for use by del monte philippines,Inc."		1	0	Inc.	230721			
+189	sp_update	Indian-meal moth										0	0	Indian-meal moth	230721			
+190	sp_update	Indian-mealmoth										0	0	Indian-mealmoth	230721			
+191	sp_update	In-field										0	0	In-field	230721			
+192	sp_update	Insect pests										0	0	Insect pests	230721			
+193	sp_update	Ischaemum rogusom )										0	0	Ischaemum rogusom )	230721			
+194	sp_update	Ischaemum rogusum sedges (rice flatsedge										0	0	Ischaemum rogusum sedges (rice flatsedge	230721			
+195	sp_update	Itchgrass										0	0	Itchgrass	230721			
+196	sp_update	Jungle rice										0	0	Jungle rice	230721			
+197	sp_update	Katydid										0	0	Katydid	230721			
+198	sp_update	Khapra beetle										0	0	Khapra beetle	230721			
+199	sp_update	L. chinesis										0	0	L. chinesis	230721			
+200	sp_update	Ladybird beetle										0	0	Ladybird beetle	230721			
+201	sp_update	Laefworm										0	0	Laefworm	230721			
+202	sp_update	Late										0	0	Late	230721			
+203	sp_update	Late blight										0	0	Late blight	230721			
+204	sp_update	Leaafhoppers										0	0	Leaafhoppers	230721			
+205	sp_update	Leaf										0	0	Leaf	230721			
+206	sp_update	Leaf anthracose										0	0	Leaf anthracose	230721			
+207	sp_update	Leaf beetles										0	0	Leaf beetles	230721			
+208	sp_update	Leaf blight										0	0	Leaf blight	230721			
+209	sp_update	Leaf blight (cercospora asparagi )										0	0	Leaf blight (cercospora asparagi )	230721			
+210	sp_update	Leaf folder										0	0	Leaf folder	230721			
+211	sp_update	Leaf folder (stem										0	0	Leaf folder (stem	230721			
+212	sp_update	Leaf hopper										0	0	Leaf hopper	230721			
+213	sp_update	Leaf miner										0	0	Leaf miner	230721			
+214	sp_update	Leaf mold										0	0	Leaf mold	230721			
+215	sp_update	Leaf roller										0	0	Leaf roller	230721			
+216	sp_update	Leaf rust										0	0	Leaf rust	230721			
+217	sp_update	Leaf speckle										0	0	Leaf speckle	230721			
+218	sp_update	Leaf spot										0	0	Leaf spot	230721			
+219	sp_update	Leafhopers										0	0	Leafhopers	230721			
+220	sp_update	Leafhopper										0	0	Leafhopper	230721			
+221	sp_update	Leafhopper (including jassids)										0	0	Leafhopper (including jassids)	230721			
+222	sp_update	Leafhopper brown planthopper										0	0	Leafhopper brown planthopper	230721			
+223	sp_update	Leafminer										0	0	Leafminer	230721			
+224	sp_update	Leafminers										0	0	Leafminers	230721			
+225	sp_update	Leafmner										0	0	Leafmner	230721			
+226	sp_update	Leafroller										0	0	Leafroller	230721			
+227	sp_update	Leahopper										0	0	Leahopper	230721			
+228	sp_update	Leahoppers										0	0	Leahoppers	230721			
+229	sp_update	Leptochloa spp.										0	0	Leptochloa spp.	230721			
+230	sp_update	Lesser grain beetle										0	0	Lesser grain beetle	230721			
+231	sp_update	Lesser grain borer										0	0	Lesser grain borer	230721			
+232	sp_update	Livestock hygience to control animal diseases										0	0	Livestock hygience to control animal diseases	230721			
+233	sp_update	Locust										0	0	Locust	230721			
+234	sp_update	Loopers										0	0	Loopers	230721			
+235	sp_update	Ludwigia octovalvis										0	0	Ludwigia octovalvis	230721			
+236	sp_update	Ludwigia octovalvis)										0	0	Ludwigia octovalvis)	230721			
+237	sp_update	Lyptochloa chinesis										0	0	Lyptochloa chinesis	230721			
+238	sp_update	M. vaginalis										0	0	M. vaginalis	230721			
+239	sp_update	Machinery disinfectant for the control ofmoko disease										0	0	Machinery disinfectant for the control ofmoko disease	230721			
+240	sp_update	Maggot										0	0	Maggot	230721			
+241	sp_update	Maggot borer										0	0	Maggot borer	230721			
+242	sp_update	Major weeds										0	0	Major weeds	230721			
+243	sp_update	Mango leafhopper										0	0	Mango leafhopper	230721			
+244	sp_update	Mango seed borer										0	0	Mango seed borer	230721			
+245	sp_update	Mango tip borer										0	0	Mango tip borer	230721			
+246	sp_update	Mango twig borer										0	0	Mango twig borer	230721			
+247	sp_update	Marker for use in plantations										0	0	Marker for use in plantations	230721			
+248	sp_update	Marker for use plantation										0	0	Marker for use plantation	230721			
+249	sp_update	Mature										0	0	Mature	230721			
+250	sp_update	Mature shaded condition:cogon immature										0	0	Mature shaded condition:cogon immature	230721			
+251	sp_update	Mealy bugs										0	0	Mealy bugs	230721			
+252	sp_update	Mealy bugs (valid only for use by del monte philippines										0	0	Mealy bugs (valid only for use by del monte philippines	230721			
+253	sp_update	Melanose scab										0	0	Melanose scab	230721			
+254	sp_update	Melon worm										0	0	Melon worm	230721			
+255	sp_update	Mexican primrose-willow										0	0	Mexican primrose-willow	230721			
+256	sp_update	Mexican primrose-willow zeylanica) sedges (rice flatsedge										0	0	Mexican primrose-willow zeylanica) sedges (rice flatsedge	230721			
+257	sp_update	Mice										0	0	Mice	230721			
+258	sp_update	Mildew										0	0	Mildew	230721			
+259	sp_update	Mites										0	0	Mites	230721			
+260	sp_update	Mixed weeds										0	0	Mixed weeds	230721			
+261	sp_update	Mixed weeds (grasses										0	0	Mixed weeds (grasses	230721			
+262	sp_update	Moko disease										0	0	Moko disease	230721			
+263	sp_update	Mole cricket										0	0	Mole cricket	230721			
+264	sp_update	Monachoria										0	0	Monachoria	230721			
+265	sp_update	Monochoria vaginalis										0	0	Monochoria vaginalis	230721			
+266	sp_update	MPowdery mildew										0	0	MPowdery mildew	230721			
+267	sp_update	Mutha										0	0	Mutha	230721			
+268	sp_update	Mutha grass										0	0	Mutha grass	230721			
+269	sp_update	Neck rice blast										0	0	Neck rice blast	230721			
+270	sp_update	Neck rot										0	0	Neck rot	230721			
+271	sp_update	Nematodes										0	0	Nematodes	230721			
+272	sp_update	Nematodes sugarcane white grub										0	0	Nematodes sugarcane white grub	230721			
+273	sp_update	Northern corn leaf blight										0	0	Northern corn leaf blight	230721			
+274	sp_update	Northern leaf blight										0	0	Northern leaf blight	230721			
+275	sp_update	NutSedges										0	0	NutSedges	230721			
+276	sp_update	Open ; condition cogon										0	0	Open ; condition cogon	230721			
+277	sp_update	Open field: mixed weeds (grasses										0	0	Open field: mixed weeds (grasses	230721			
+278	sp_update	Open field:mixed weeds (grasses										0	0	Open field:mixed weeds (grasses	230721			
+279	sp_update	Or wheel  for the control ofmoko disease or bacterial wilt (ralstonia solanacearum )										0	0	Or wheel  for the control ofmoko disease or bacterial wilt (ralstonia solanacearum )	230721			
+280	sp_update	Oriental fruit fly										0	0	Oriental fruit fly	230721			
+281	sp_update	P. conjugatum)										0	0	P. conjugatum)	230721			
+282	sp_update	Paddy rice										0	0	Paddy rice	230721			
+283	sp_update	Panama disease										0	0	Panama disease	230721			
+284	sp_update	Panana diesease (fusarium oxysporum)										0	0	Panana diesease (fusarium oxysporum)	230721			
+285	sp_update	Panicle rice blast										0	0	Panicle rice blast	230721			
+286	sp_update	Para grass										0	0	Para grass	230721			
+287	sp_update	Pennial										0	0	Pennial	230721			
+288	sp_update	Perennial broadleaf weeds										0	0	Perennial broadleaf weeds	230721			
+289	sp_update	Perennial grasses										0	0	Perennial grasses	230721			
+290	sp_update	Perennial sedges										0	0	Perennial sedges	230721			
+291	sp_update	Perrenial		Perennial								0	0	Perrenial	230721			
+292	sp_update	Pestalotiopsis sp .										0	0	Pestalotiopsis sp .	230721			
+293	sp_update	Phoma blight										0	0	Phoma blight	230721			
+294	sp_update	Phythopthora Root rot										0	0	Phythopthora Root rot	230721			
+295	sp_update	Phythopthora rot										0	0	Phythopthora rot	230721			
+296	sp_update	Phythopthora rot fruit rot										0	0	Phythopthora rot fruit rot	230721			
+297	sp_update	Pickerel weed										0	0	Pickerel weed	230721			
+298	sp_update	Pineaple mites										0	0	Pineaple mites	230721			
+299	sp_update	Pineapple black rot (thielaviopsis rot)										0	0	Pineapple black rot (thielaviopsis rot)	230721			
+300	sp_update	Pineapple disease										0	0	Pineapple disease	230721			
+301	sp_update	Pineapple fruit rot										0	0	Pineapple fruit rot	230721			
+302	sp_update	Pineapple mites										0	0	Pineapple mites	230721			
+303	sp_update	Pineapple mold										0	0	Pineapple mold	230721			
+304	sp_update	Pineapple molds										0	0	Pineapple molds	230721			
+305	sp_update	Pineapple wilt										0	0	Pineapple wilt	230721			
+306	sp_update	Pink disease										0	0	Pink disease	230721			
+307	sp_update	Pink rot										0	0	Pink rot	230721			
+308	sp_update	Pink scavenger larva										0	0	Pink scavenger larva	230721			
+309	sp_update	Pitmark										0	0	Pitmark	230721			
+310	sp_update	Planthopper										0	0	Planthopper	230721			
+311	sp_update	Pod bores										0	0	Pod bores	230721			
+312	sp_update	Pod rot										0	0	Pod rot	230721			
+313	sp_update	Post-emergent broadleaf weeds										0	0	Post-emergent broadleaf weeds	230721			
+314	sp_update	Potato cyst nematode										0	0	Potato cyst nematode	230721			
+315	sp_update	Potato tuber worm										0	0	Potato tuber worm	230721			
+316	sp_update	Powdery mildew										0	0	Powdery mildew	230721			
+317	sp_update	Powdery mildew cercospora leaf spot										0	0	Powdery mildew cercospora leaf spot	230721			
+318	sp_update	Purple blotch										0	0	Purple blotch	230721			
+319	sp_update	Pythium spp.										0	0	Pythium spp.	230721			
+320	sp_update	Radopholus Nematodes										0	0	Radopholus Nematodes	230721			
+321	sp_update	Rats										0	0	Rats	230721			
+322	sp_update	Red flour beetles										0	0	Red flour beetles	230721			
+323	sp_update	Red rot										0	0	Red rot	230721			
+324	sp_update	Red sprangletop										0	0	Red sprangletop	230721			
+325	sp_update	Reniform										0	0	Reniform	230721			
+326	sp_update	Rhizoctania sheath blight										0	0	Rhizoctania sheath blight	230721			
+327	sp_update	Rhizopertha dominica										0	0	Rhizopertha dominica	230721			
+328	sp_update	Rhyzopertha dominica										0	0	Rhyzopertha dominica	230721			
+329	sp_update	Rice black bug										0	0	Rice black bug	230721			
+330	sp_update	Rice blast										0	0	Rice blast	230721			
+331	sp_update	Rice bug										0	0	Rice bug	230721			
+332	sp_update	Rice bug ( drone spray application)										0	0	Rice bug ( drone spray application)	230721			
+333	sp_update	Rice flatsedge										0	0	Rice flatsedge	230721			
+334	sp_update	Rice flatSedges										0	0	Rice flatSedges	230721			
+335	sp_update	Rice leaf folder										0	0	Rice leaf folder	230721			
+336	sp_update	Rice Sedges										0	0	Rice Sedges	230721			
+337	sp_update	Rice semborer										0	0	Rice semborer	230721			
+338	sp_update	Rice stem borer										0	0	Rice stem borer	230721			
+339	sp_update	Rice weevil										0	0	Rice weevil	230721			
+340	sp_update	Rice whorl maggot										0	0	Rice whorl maggot	230721			
+341	sp_update	Rind borer										0	0	Rind borer	230721			
+342	sp_update	Rindworm										0	0	Rindworm	230721			
+343	sp_update	Ringspot										0	0	Ringspot	230721			
+344	sp_update	Ripener										0	0	Ripener	230721			
+345	sp_update	Ripening										0	0	Ripening	230721			
+346	sp_update	Rodents										0	0	Rodents	230721			
+347	sp_update	Roof flies										0	0	Roof flies	230721			
+348	sp_update	Root disease										0	0	Root disease	230721			
+349	sp_update	Root fly										0	0	Root fly	230721			
+350	sp_update	Root rot										0	0	Root rot	230721			
+351	sp_update	Root rot caused by pythophthora sp .										0	0	Root rot caused by pythophthora sp .	230721			
+352	sp_update	Root-knot Nematodes										0	0	Root-knot Nematodes	230721			
+353	sp_update	Ruminants										0	0	Ruminants	230721			
+354	sp_update	Rusetting										0	0	Rusetting	230721			
+355	sp_update	Rust										0	0	Rust	230721			
+356	sp_update	Rust-red grain beetle										0	0	Rust-red grain beetle	230721			
+357	sp_update	Rusts										0	0	Rusts	230721			
+358	sp_update	Saramolla grass										0	0	Saramolla grass	230721			
+359	sp_update	Saramolla grass)										0	0	Saramolla grass)	230721			
+360	sp_update	Saw toothed grain beetle										0	0	Saw toothed grain beetle	230721			
+361	sp_update	Scab										0	0	Scab	230721			
+362	sp_update	Scale imsects										0	0	Scale imsects	230721			
+363	sp_update	Scale insect										0	0	Scale insect	230721			
+364	sp_update	Scarring beetle										0	0	Scarring beetle	230721			
+365	sp_update	Scarring beetle aphids										0	0	Scarring beetle aphids	230721			
+366	sp_update	Sedges										0	0	Sedges	230721			
+367	sp_update	Sedges (rice flatsedge )										0	0	Sedges (rice flatsedge )	230721			
+368	sp_update	Sedges and										0	0	Sedges and	230721			
+369	sp_update	Sedges rice flatsedge (ubod-ubod)										0	0	Sedges rice flatsedge (ubod-ubod)	230721			
+370	sp_update	Seed borer										0	0	Seed borer	230721			
+371	sp_update	Seeding blight										0	0	Seeding blight	230721			
+372	sp_update	Seeding blight (fusarium verticilliodes)										0	0	Seeding blight (fusarium verticilliodes)	230721			
+373	sp_update	Seeding maggot										0	0	Seeding maggot	230721			
+374	sp_update	Semilooper										0	0	Semilooper	230721			
+375	sp_update	SemiLoopers										0	0	SemiLoopers	230721			
+376	sp_update	Semi-Slugs 										0	0	Semi-Slugs 	230721			
+377	sp_update	Septoria										0	0	Septoria	230721			
+378	sp_update	Septoria fruit spot										0	0	Septoria fruit spot	230721			
+379	sp_update	Septoria leaf spot										0	0	Septoria leaf spot	230721			
+380	sp_update	Septorial leaf spot										0	0	Septorial leaf spot	230721			
+381	sp_update	Shaded condition:mixed weeds (grasses										0	0	Shaded condition:mixed weeds (grasses	230721			
+382	sp_update	Shaded conditions: cogon ; immature										0	0	Shaded conditions: cogon ; immature	230721			
+383	sp_update	Shaded conditions: cogon; immature										0	0	Shaded conditions: cogon; immature	230721			
+384	sp_update	Shaded conditions: mixed weeds (grasses										0	0	Shaded conditions: mixed weeds (grasses	230721			
+385	sp_update	Shaded-condition: mixed weeds (grasses										0	0	Shaded-condition: mixed weeds (grasses	230721			
+386	sp_update	Sheat blight										0	0	Sheat blight	230721			
+387	sp_update	Sheath blighjt										0	0	Sheath blighjt	230721			
+388	sp_update	Sheath blight										0	0	Sheath blight	230721			
+389	sp_update	Sheath blight caused by rhizostonia solani										0	0	Sheath blight caused by rhizostonia solani	230721			
+390	sp_update	Sheath rot										0	0	Sheath rot	230721			
+391	sp_update	Shoot borer										0	0	Shoot borer	230721			
+392	sp_update	Shoot/fruitborder										0	0	Shoot/fruitborder	230721			
+393	sp_update	Shot hole disease										0	0	Shot hole disease	230721			
+394	sp_update	Siagatoka										0	0	Siagatoka	230721			
+395	sp_update	Sigatoka										0	0	Sigatoka	230721			
+396	sp_update	Silk beetle										0	0	Silk beetle	230721			
+397	sp_update	Silkworm										0	0	Silkworm	230721			
+398	sp_update	Sitophilus spp.										0	0	Sitophilus spp.	230721			
+399	sp_update	Slugs										0	0	Slugs	230721			
+400	sp_update	Slugs Snails										0	0	Slugs Snails	230721			
+401	sp_update	Smoky fruit										0	0	Smoky fruit	230721			
+402	sp_update	Snails										0	0	Snails	230721			
+403	sp_update	Soil insects										0	0	Soil insects	230721			
+404	sp_update	Soil pests										0	0	Soil pests	230721			
+405	sp_update	Sooty mold										0	0	Sooty mold	230721			
+406	sp_update	Sour paralum										0	0	Sour paralum	230721			
+407	sp_update	Sour paspalum grass										0	0	Sour paspalum grass	230721			
+408	sp_update	Souring beetle										0	0	Souring beetle	230721			
+409	sp_update	Southern leaf blight (through drone spraying)										0	0	Southern leaf blight (through drone spraying)	230721			
+410	sp_update	Spear rot										0	0	Spear rot	230721			
+411	sp_update	Spider mites										0	0	Spider mites	230721			
+412	sp_update	Spindle top										0	0	Spindle top	230721			
+413	sp_update	Spindletop										0	0	Spindletop	230721			
+414	sp_update	Squash beetle										0	0	Squash beetle	230721			
+415	sp_update	Squash bug										0	0	Squash bug	230721			
+416	sp_update	Stem blight										0	0	Stem blight	230721			
+417	sp_update	Stem blight (phoma asparagi ) leaf blight (cercospora asparagi)										0	0	Stem blight (phoma asparagi ) leaf blight (cercospora asparagi)	230721			
+418	sp_update	Stem bligjht (phoma asparagi )										0	0	Stem bligjht (phoma asparagi )	230721			
+419	sp_update	Stem borer										0	0	Stem borer	230721			
+420	sp_update	Stem end rot										0	0	Stem end rot	230721			
+421	sp_update	Stem rot										0	0	Stem rot	230721			
+422	sp_update	Stemnborer										0	0	Stemnborer	230721			
+423	sp_update	Stink bug										0	0	Stink bug	230721			
+424	sp_update	Stored grain pests										0	0	Stored grain pests	230721			
+425	sp_update	Strawberry leaf spot										0	0	Strawberry leaf spot	230721			
+426	sp_update	Sugarcane borer										0	0	Sugarcane borer	230721			
+427	sp_update	Sugarcane white grub										0	0	Sugarcane white grub	230721			
+428	sp_update	Surface disinfection										0	0	Surface disinfection	230721			
+429	sp_update	Surface disinfection in animal facilities (livestock housing										0	0	Surface disinfection in animal facilities (livestock housing	230721			
+430	sp_update	"Surface disinfection in animal facilities (livestock housing,Abbaitors,Animal transport,Equipment,And warehouse for"										0	0	"Surface disinfection in animal facilities (livestock housing,Abbaitors,Animal transport,Equipment,And warehouse for"	230721			
+431	sp_update	Surfactant for narkis 100 sc										0	0	Surfactant for narkis 100 sc	230721			
+432	sp_update	Surfactant on bisig sc 100										0	0	Surfactant on bisig sc 100	230721			
+433	sp_update	Surfactant on bisig sc 100										0	0	Surfactant on bisig sc 100	230721			
+434	sp_update	Surfactant on nominee 100 sc										0	0	Surfactant on nominee 100 sc	230721			
+435	sp_update	Surfactant on nominee 100 sc										0	0	Surfactant on nominee 100 sc	230721			
+436	sp_update	Surfactant on razer 10 sc										0	0	Surfactant on razer 10 sc	230721			
+437	sp_update	Surfactant on razer 10 sc										0	0	Surfactant on razer 10 sc	230721			
+438	sp_update	Swine										0	0	Swine	230721			
+439	sp_update	Swine										0	0	Swine	230721			
+440	sp_update	Symphylid										0	0	Symphylid	230721			
+441	sp_update	Symphylid										0	0	Symphylid	230721			
+442	sp_update	Syndrella										0	0	Syndrella	230721			
+443	sp_update	Syndrella										0	0	Syndrella	230721			
+444	sp_update	Talahib										0	0	Talahib	230721			
+445	sp_update	Talahib										0	0	Talahib	230721			
+446	sp_update	Talahib grass										0	0	Talahib grass	230721			
+447	sp_update	Talahib grass										0	0	Talahib grass	230721			
+448	sp_update	Termite										0	0	Termite	230721			
+449	sp_update	Termite										0	0	Termite	230721			
+450	sp_update	Thielaviopsis spp.										0	0	Thielaviopsis spp.	230721			
+451	sp_update	Thielaviopsis spp.										0	0	Thielaviopsis spp.	230721			
+452	sp_update	Thrip										0	0	Thrip	230721			
+453	sp_update	Thrip										0	0	Thrip	230721			
+454	sp_update	Thrips										0	0	Thrips	230721			
+455	sp_update	Thrips										0	0	Thrips	230721			
+456	sp_update	Thrips boll weevil										0	0	Thrips boll weevil	230721			
+457	sp_update	Thrips boll weevil										0	0	Thrips boll weevil	230721			
+458	sp_update	Tip bores										0	0	Tip bores	230721			
+459	sp_update	Tip bores										0	0	Tip bores	230721			
+460	sp_update	Tip hopper										0	0	Tip hopper	230721			
+461	sp_update	Tip hopper										0	0	Tip hopper	230721			
+462	sp_update	Tipborer										0	0	Tipborer	230721			
+463	sp_update	Tipborer										0	0	Tipborer	230721			
+464	sp_update	Tire 										0	0	Tire 	230721			
+465	sp_update	Tire 										0	0	Tire 	230721			
+466	sp_update	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum )										0	0	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum )	230721			
+467	sp_update	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum )										0	0	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum )	230721			
+468	sp_update	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum ) and										0	0	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum ) and	230721			
+469	sp_update	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum ) and										0	0	Tire  or wheel  for the control ofmoko disease/bacterial wilt (ralstonia solanacearum ) and	230721			
+470	sp_update	Tobacco budworm										0	0	Tobacco budworm	230721			
+471	sp_update	Tobacco budworm										0	0	Tobacco budworm	230721			
+472	sp_update	Tomato fruitworm										0	0	Tomato fruitworm	230721			
+473	sp_update	Tomato fruitworm										0	0	Tomato fruitworm	230721			
+474	sp_update	Tool										0	0	Tool	230721			
+475	sp_update	Tool										0	0	Tool	230721			
+476	sp_update	Tribolium castaneum										0	0	Tribolium castaneum	230721			
+477	sp_update	Tribolium castaneum										0	0	Tribolium castaneum	230721			
+478	sp_update	Trips										0	0	Trips	230721			
+479	sp_update	Trips										0	0	Trips	230721			
+480	sp_update	Tropical whiteweed										0	0	Tropical whiteweed	230721			
+481	sp_update	Tropical whiteweed										0	0	Tropical whiteweed	230721			
+482	sp_update	Twig borer										0	0	Twig borer	230721			
+483	sp_update	Twig borer										0	0	Twig borer	230721			
+484	sp_update	Twigcutter										0	0	Twigcutter	230721			
+485	sp_update	Twigcutter										0	0	Twigcutter	230721			
+486	sp_update	Twister										0	0	Twister	230721			
+487	sp_update	Twister										0	0	Twister	230721			
+488	sp_update	Twister disease										0	0	Twister disease	230721			
+489	sp_update	Twister disease										0	0	Twister disease	230721			
+490	sp_update	Vine'										0	0	Vine'	230721			
+491	sp_update	Vine'										0	0	Vine'	230721			
+492	sp_update	Volunteer rice										0	0	Volunteer rice	230721			
+493	sp_update	Volunteer rice										0	0	Volunteer rice	230721			
+494	sp_update	Warehouse for										0	0	Warehouse for	230721			
+495	sp_update	Warehouse for										0	0	Warehouse for	230721			
+496	sp_update	Water delivery system in animal facilities										0	0	Water delivery system in animal facilities	230721			
+497	sp_update	Water delivery system in animal facilities										0	0	Water delivery system in animal facilities	230721			
+498	sp_update	Water sanitation in animal facilities for poultry										0	0	Water sanitation in animal facilities for poultry	230721			
+499	sp_update	Water sanitation in animal facilities for poultry										0	0	Water sanitation in animal facilities for poultry	230721			
+500	sp_update	Water system in fish culture operations										0	0	Water system in fish culture operations	230721			
+501	sp_update	Water system in fish culture operations										0	0	Water system in fish culture operations	230721			
+502	sp_update	Water systems										0	0	Water systems	230721			
+503	sp_update	Water systems										0	0	Water systems	230721			
+504	sp_update	Web worm										0	0	Web worm	230721			
+505	sp_update	Web worm										0	0	Web worm	230721			
+506	sp_update	Weeds										0	0	Weeds	230721			
+507	sp_update	Weeds										0	0	Weeds	230721			
+508	sp_update	Weevil										0	0	Weevil	230721			
+509	sp_update	Weevil										0	0	Weevil	230721			
+510	sp_update	Wet bud rot										0	0	Wet bud rot	230721			
+511	sp_update	Wet bud rot										0	0	Wet bud rot	230721			
+512	sp_update	Wheat										0	0	Wheat	230721			
+513	sp_update	Wheat										0	0	Wheat	230721			
+514	sp_update	Wheel  for the control ofmoko disease or bacterial wilt (ralstonia solanacearum )										0	0	Wheel  for the control ofmoko disease or bacterial wilt (ralstonia solanacearum )	230721			
+515	sp_update	Wheel  for the control ofmoko disease or bacterial wilt (ralstonia solanacearum )										0	0	Wheel  for the control ofmoko disease or bacterial wilt (ralstonia solanacearum )	230721			
+516	sp_update	White backed planthopper										0	0	White backed planthopper	230721			
+517	sp_update	White backed planthopper										0	0	White backed planthopper	230721			
+518	sp_update	White fly										0	0	White fly	230721			
+519	sp_update	White fly										0	0	White fly	230721			
+520	sp_update	White grubs										0	0	White grubs	230721			
+521	sp_update	White grubs										0	0	White grubs	230721			
+522	sp_update	White leaf spot 										0	0	White leaf spot 	230721			
+523	sp_update	White leaf spot 										0	0	White leaf spot 	230721			
+524	sp_update	White leaf spot caused by chalara (thielaviopsis) paradoxa										0	0	White leaf spot caused by chalara (thielaviopsis) paradoxa	230721			
+525	sp_update	White leaf spot caused by chalara (thielaviopsis) paradoxa										0	0	White leaf spot caused by chalara (thielaviopsis) paradoxa	230721			
+526	sp_update	White rust										0	0	White rust	230721			
+527	sp_update	White rust										0	0	White rust	230721			
+528	sp_update	White spot										0	0	White spot	230721			
+529	sp_update	White spot										0	0	White spot	230721			
+530	sp_update	Whitegrub										0	0	Whitegrub	230721			
+531	sp_update	Whitegrub										0	0	Whitegrub	230721			
+532	sp_update	Whorl maggot										0	0	Whorl maggot	230721			
+533	sp_update	Whorl maggot										0	0	Whorl maggot	230721			
+534	sp_update	Wild rice										0	0	Wild rice	230721			
+535	sp_update	Wild rice										0	0	Wild rice	230721			
+536	sp_update	Wilt (fusarium )										0	0	Wilt (fusarium )	230721			
+537	sp_update	Wilt (fusarium )										0	0	Wilt (fusarium )	230721			
+538	sp_update	Wilt (fusarium)										0	0	Wilt (fusarium)	230721			
+539	sp_update	Wilt (fusarium)										0	0	Wilt (fusarium)	230721			
+540	sp_update	Yellow sigatoka										0	0	Yellow sigatoka	230721			
